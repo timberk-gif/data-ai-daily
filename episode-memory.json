@@ -1,0 +1,9 @@
+{
+  "episodes": [
+    {
+      "date": "2026-05-26",
+      "summary": "# Episode Summary\n\nDatabricks is making significant moves in production AI with new observability tools for agents and prompt caching for open-source models—capabilities that directly address enterprise concerns around auditability and cost efficiency that banks and financial institutions are prioritizing right now. Meanwhile, Microsoft Fabric and Google Cloud are both shipping competitive updates anchored around agentic AI, validating that the industry has shifted from \"should we build agents\" to \"how do we make them production-safe.\" The broader landscape signal: multi-model AI infrastructure is the future, banks are investing heavily in operational cost reduction over compliance, and overconfidence in LLM outputs is emerging as a critical risk for regulated industries.",
+      "keyTopics": []
+    }
+  ]
+}
