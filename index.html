@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Data & AI Daily — Tim Kiernan</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1.5rem; color: #222; line-height: 1.55; }
+h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.tagline { color: #666; margin-bottom: 2rem; }
+.cta { display: inline-block; padding: 0.6rem 1.2rem; background: #1f6feb; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; }
+.cta:hover { background: #1858b8; }
+code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<h1>The Data & AI Daily</h1>
+<p class="tagline">A daily two-host AI briefing for Tim — Databricks, AI/ML, competitive intel, and FSI industry signal.</p>
+<p>Subscribe in your podcast app:</p>
+<p><a class="cta" href="./feed.xml">RSS feed</a></p>
+<p>Or paste this URL into Pocket Casts, Overcast, Apple Podcasts, or Castro:</p>
+<p><code id="rss-url">feed.xml</code></p>
+<script>
+document.getElementById('rss-url').textContent = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/feed.xml';
+</script>
+</body>
+</html>
