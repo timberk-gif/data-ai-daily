@@ -40,6 +40,7 @@ jobs:
           PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
           PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
           PODCAST_AUTHOR: ${{ secrets.PODCAST_AUTHOR }}
+          PODCAST_OWNER_EMAIL: ${{ secrets.PODCAST_OWNER_EMAIL }}
         run: node src/index.js
 
       - name: Cleanup

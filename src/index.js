@@ -33,6 +33,7 @@ const REPO = process.env.GITHUB_REPOSITORY;
 const GH_TOKEN = process.env.GITHUB_TOKEN;
 const PODCAST_TITLE = process.env.PODCAST_TITLE || 'Daily Databricks and AI Podcast';
 const PODCAST_AUTHOR = process.env.PODCAST_AUTHOR || 'Unknown';
+const PODCAST_OWNER_EMAIL = process.env.PODCAST_OWNER_EMAIL || 'unset@example.com';
 
 /**
  * Get current feed.xml from gh-pages branch
@@ -205,6 +206,7 @@ async function run({ dryRun = false } = {}) {
       {
         title: PODCAST_TITLE,
         author: PODCAST_AUTHOR,
+        ownerEmail: PODCAST_OWNER_EMAIL,
         description: 'Daily briefing on Databricks releases and AI developments.',
       }
     );
