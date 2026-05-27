@@ -1,44 +1,10 @@
 /**
  * Script Synthesizer
  *
- * Uses Claude API to generate a spoken-word audio script with NYC weather integration
+ * Uses Claude API to generate a two-host spoken-word audio script
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
-const axios = require('axios');
-
-/**
- * Fetch current NYC weather from Open-Meteo API (free, no key needed)
- */
-async function fetchNYCWeather() {
-  const url = 'https://api.open-meteo.com/v1/forecast'
-    + '?latitude=40.7549&longitude=-73.9840'
-    + '&current=temperature_2m,weathercode,windspeed_10m'
-    + '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max'
-    + '&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=1';
-
-  const { data } = await axios.get(url);
-  const c = data.current;
-  const d = data.daily;
-
-  // WMO weather code → human description
-  const conditions = {
-    0: 'clear skies', 1: 'mainly clear', 2: 'partly cloudy', 3: 'overcast',
-    45: 'foggy', 48: 'icy fog', 51: 'light drizzle', 61: 'light rain',
-    63: 'moderate rain', 65: 'heavy rain', 71: 'light snow', 80: 'rain showers',
-    95: 'thunderstorms',
-  };
-  const description = conditions[c.weathercode] ?? 'mixed conditions';
-
-  return {
-    current: Math.round(c.temperature_2m),
-    high: Math.round(d.temperature_2m_max[0]),
-    low: Math.round(d.temperature_2m_min[0]),
-    precip: d.precipitation_probability_max[0],
-    description,
-    wind: Math.round(c.windspeed_10m),
-  };
-}
 
 /**
  * Synthesize audio script from content bundle
@@ -57,12 +23,6 @@ async function synthesizeScript(contentBundle, episodeMemory = null) {
     timeZone: 'America/New_York',
   });
 
-  // Fetch NYC weather
-  const weather = await fetchNYCWeather();
-  const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
-    + `high of ${weather.high}°F, low of ${weather.low}°F, `
-    + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
-
   const memoryContext = episodeMemory
     ? `═══════════════════════════════════════════════
 RECENT EPISODE CONTEXT (last 7 days):
@@ -75,20 +35,18 @@ ${episodeMemory}
     : '';
 
   const prompt = `
-You are writing the script for "The Data & AI Daily," a two-host morning podcast for a Databricks Field Engineering account-executive team based in New York City. The team covers emerging-enterprise accounts across financial services, insurance, fintech, and credit unions, so their interest skews toward signal that helps them talk to those customers.
-Today is ${today}. The team works out of New York City.
-
-NYC weather right now: ${weatherSummary}
+You are writing the script for "The Data & AI Daily," a two-host morning briefing podcast on data + AI news.
+Today is ${today}.
 
 ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
 Below is the raw content gathered from four content streams:
-1. Databricks sources (blog, newsroom, release notes, exec social posts)
+1. Databricks (blog, newsroom, release notes, exec social posts)
 2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news, arXiv, Hacker News)
-3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs — relevant to Databricks AE conversations)
-4. Financial services + insurance industry signal (relevant to Tim's account book)
+3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs)
+4. Financial services + insurance industry signal
 
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
@@ -102,7 +60,7 @@ FORMAT RULES (critical):
 - Example:
 
 [HOST]
-Good morning, Tyler! Big day in the data world.
+Good morning, everyone! Big day in the data world.
 
 [COHOST]
 No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
@@ -115,9 +73,9 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets the team (use a collective like "team," "everyone," "folks," or just dive in — never a specific person's name).
+- HOST greets the audience (use a collective like "team," "everyone," "folks," or just dive in — never a specific person's name).
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the NYC weather naturally (not as a weather report — more like what a friend would say: "looks like a brisk one on the walk in" or "grab the umbrella").
+- COHOST reacts with a punchy framing of the day's biggest story. Do NOT mention weather or the time of day; jump straight into the news.
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
@@ -132,8 +90,8 @@ For each theme segment:
 - COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
 - Together they explain what happened, why it matters, and who it impacts (call out data engineers,
   ML practitioners, AEs, or infra teams specifically when relevant).
-- For competitive items: frame from a Databricks AE perspective — what's the customer conversation it shapes? What's the actual differentiation story? Don't be defensive or dismissive of competitors; be sharp and honest about the move.
-- For FSI items: connect to the kinds of conversations Tim has with insurance carriers, banks, credit unions, hedge funds — what data/AI use case does this reinforce, and what's the right talking point?
+- For competitive items: explain the strategic implication for data + AI buyers — what's the move, who does it benefit, where does it pressure other vendors? Be sharp and honest, not defensive.
+- For FSI items: connect to the kinds of data + AI conversations that come up with insurance carriers, banks, credit unions, and hedge funds — what use case does this reinforce, and what's the talking point?
 - Add light, confident commentary — both hosts have opinions. Examples of the right tone:
   "This puts real pressure on Snowflake's AI roadmap."
   "Honestly, this is great news for early-stage teams with lean data stacks."
@@ -214,4 +172,4 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
   }
 }
 
-module.exports = { synthesizeScript, fetchNYCWeather };
+module.exports = { synthesizeScript };
