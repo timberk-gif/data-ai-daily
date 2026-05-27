@@ -2,7 +2,7 @@
   "episodes": [
     {
       "date": "2026-05-26",
-      "summary": "# Episode Summary\n\nBanks are aggressively investing in AI primarily to cut operational costs rather than manage compliance risk—a major shift that should reshape how you approach financial services conversations. The episode breaks down a fierce model pricing war (including Xiaomi's 99% price cut and OpenRouter's explosive growth) that's pushing enterprises toward model-agnostic infrastructure, while new research reveals a critical risk: LLMs are systematically overconfident in their answers, creating serious compliance exposure for regulated industries. Together, these trends point to one core need: observable, governed AI platforms that can swap models as markets shift while providing the auditability and tracing capabilities regulators now demand.",
+      "summary": "# Episode Summary\n\nThis episode examines critical challenges and market shifts in enterprise AI, starting with new research proving large language models are systematically overconfident—a compliance risk in financial services that Databricks addresses through production-ready AI tracing and governance tools. The conversation also covers OpenRouter's billion-dollar valuation reflecting enterprise demand for model-agnostic platforms, competitive moves from Microsoft and Snowflake, and a crucial insight that banks are prioritizing AI for cost reduction over risk management, reshaping how vendors should pitch solutions to financial institutions.",
       "keyTopics": []
     }
   ]
