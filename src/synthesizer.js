@@ -1,10 +1,44 @@
 /**
  * Script Synthesizer
  *
- * Uses Claude API to generate a two-host spoken-word audio script
+ * Uses Claude API to generate a spoken-word audio script with NYC weather integration
  */
 
 const Anthropic = require('@anthropic-ai/sdk');
+const axios = require('axios');
+
+/**
+ * Fetch current NYC weather from Open-Meteo API (free, no key needed)
+ */
+async function fetchNYCWeather() {
+  const url = 'https://api.open-meteo.com/v1/forecast'
+    + '?latitude=40.7549&longitude=-73.9840'
+    + '&current=temperature_2m,weathercode,windspeed_10m'
+    + '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max'
+    + '&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FNew_York&forecast_days=1';
+
+  const { data } = await axios.get(url);
+  const c = data.current;
+  const d = data.daily;
+
+  // WMO weather code → human description
+  const conditions = {
+    0: 'clear skies', 1: 'mainly clear', 2: 'partly cloudy', 3: 'overcast',
+    45: 'foggy', 48: 'icy fog', 51: 'light drizzle', 61: 'light rain',
+    63: 'moderate rain', 65: 'heavy rain', 71: 'light snow', 80: 'rain showers',
+    95: 'thunderstorms',
+  };
+  const description = conditions[c.weathercode] ?? 'mixed conditions';
+
+  return {
+    current: Math.round(c.temperature_2m),
+    high: Math.round(d.temperature_2m_max[0]),
+    low: Math.round(d.temperature_2m_min[0]),
+    precip: d.precipitation_probability_max[0],
+    description,
+    wind: Math.round(c.windspeed_10m),
+  };
+}
 
 /**
  * Synthesize audio script from content bundle
@@ -23,6 +57,12 @@ async function synthesizeScript(contentBundle, episodeMemory = null) {
     timeZone: 'America/New_York',
   });
 
+  // Fetch NYC weather
+  const weather = await fetchNYCWeather();
+  const weatherSummary = `${weather.description}, currently ${weather.current}°F, `
+    + `high of ${weather.high}°F, low of ${weather.low}°F, `
+    + `${weather.precip}% chance of rain, winds at ${weather.wind} mph`;
+
   const memoryContext = episodeMemory
     ? `═══════════════════════════════════════════════
 RECENT EPISODE CONTEXT (last 7 days):
@@ -35,25 +75,20 @@ ${episodeMemory}
     : '';
 
   const prompt = `
-You are writing the script for "The Data & AI Daily," a two-host morning briefing podcast on data + AI news.
-Today is ${today}.
+You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tim, a Databricks Field Engineering account executive based in New York City. Tim covers emerging-enterprise accounts across financial services, insurance, fintech, and credit unions, so his interest skews toward signal that helps him talk to those customers.
+Today is ${today}. Tim is based in New York City (5 Bryant Park).
 
-═══════════════════════════════════════════════
-AUDIENCE CONTEXT (editorial steering — DO NOT surface in the script):
-═══════════════════════════════════════════════
-The actual listeners are a Databricks Field Engineering account-executive team that covers emerging-enterprise accounts across financial services, insurance, fintech, and credit unions. Pitch coverage so it's useful for them — bias toward Databricks platform stories, competitive moves vs. Snowflake/Fabric/BigQuery, AI-tooling news that shapes data-platform conversations, and FSI industry signal they could bring into customer calls.
-
-IMPORTANT: this context is for YOU to steer with. The script itself must NEVER reference "Databricks AE," "Field Engineering," "FE," "the team's customers," NYC, or any audience-identifying detail. Episodes need to sound shareable to anyone — a peer in another role at Databricks, a customer who got the link, or a stranger who stumbled on the feed. Treat the audience identity as private editorial knowledge, not on-air framing.
+NYC weather right now: ${weatherSummary}
 
 ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
 Below is the raw content gathered from four content streams:
-1. Databricks (blog, newsroom, release notes, exec social posts)
+1. Databricks sources (blog, newsroom, release notes, exec social posts)
 2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news, arXiv, Hacker News)
-3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs)
-4. Financial services + insurance industry signal
+3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs — relevant to Databricks AE conversations)
+4. Financial services + insurance industry signal (relevant to Tim's account book)
 
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
@@ -67,7 +102,7 @@ FORMAT RULES (critical):
 - Example:
 
 [HOST]
-Good morning, everyone! Big day in the data world.
+Good morning, Tim! Big day in the data world.
 
 [COHOST]
 No kidding. I saw the Databricks news drop last night and almost spilled my coffee.
@@ -80,9 +115,9 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets the audience (use a collective like "team," "everyone," "folks," or just dive in — never a specific person's name).
+- HOST greets Tim by name.
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts with a punchy framing of the day's biggest story. Do NOT mention weather or the time of day; jump straight into the news.
+- COHOST reacts and weaves in the NYC weather naturally (not as a weather report — more like what a friend would say: "looks like a brisk one on the walk to Bryant Park" or "grab the umbrella").
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
@@ -97,20 +132,20 @@ For each theme segment:
 - COHOST jumps in with reactions, follow-up questions, counterpoints, or "why it matters" color.
 - Together they explain what happened, why it matters, and who it impacts (call out data engineers,
   ML practitioners, AEs, or infra teams specifically when relevant).
-- For competitive items (Snowflake, Fabric, BigQuery moves): unpack the strategic implication for Databricks specifically — what does this pressure on the Databricks platform side, where does Databricks have the better answer, and where might it have to catch up? Be sharp and honest, not defensive. Speak to it as "the Databricks story" or "what this means for the lakehouse approach," NOT as advice to a specific audience.
-- For FSI items: connect to the data + AI use cases that show up in financial-services and insurance buying conversations — carriers, banks, credit unions, hedge funds. What pattern does this reinforce, what's the talking point? Frame as industry analysis, NOT as direct advice to listeners.
+- For competitive items: frame from a Databricks AE perspective — what's the customer conversation it shapes? What's the actual differentiation story? Don't be defensive or dismissive of competitors; be sharp and honest about the move.
+- For FSI items: connect to the kinds of conversations Tim has with insurance carriers, banks, credit unions, hedge funds — what data/AI use case does this reinforce, and what's the right talking point?
 - Add light, confident commentary — both hosts have opinions. Examples of the right tone:
   "This puts real pressure on Snowflake's AI roadmap."
   "Honestly, this is great news for early-stage teams with lean data stacks."
   "I think this is being undersold — here's why it matters."
 - Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Never address a specific person by name. Use collective forms ("team," "everyone," "folks") sparingly if at all — don't force it.
+- Address Tim by name once or twice across the whole episode — not every segment.
 - Transitions between segments should feel natural, not formulaic.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
-- COHOST adds what the team should keep an eye on this week — biased toward what will come up in customer conversations.
-- Both sign off warmly.
+- COHOST adds what Tim should keep an eye on over the coming days — biased toward what will come up in customer conversations.
+- Both sign off warmly and personally.
 
 ═══════════════════════════════════════════════
 STYLE RULES:
@@ -179,4 +214,4 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
   }
 }
 
-module.exports = { synthesizeScript };
+module.exports = { synthesizeScript, fetchNYCWeather };
