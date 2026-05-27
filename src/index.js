@@ -143,8 +143,13 @@ async function run({ dryRun = false } = {}) {
     const centralTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
     const dateStr = centralTime.toISOString().slice(0, 10); // YYYY-MM-DD in Central Time
 
+    // Short build suffix derived from the run timestamp — guarantees a unique
+    // filename (and therefore unique GUID) per workflow run, so podcast apps
+    // never confuse a re-run with a previously-cached episode.
+    const buildSuffix = now.toISOString().replace(/[-:T.Z]/g, '').slice(2, 14); // YYMMDDHHmmss
+
     // Save script to file for reference
-    const scriptFileName = `AI-Briefing-${dateStr}-script.txt`;
+    const scriptFileName = `AI-Briefing-${dateStr}-${buildSuffix}-script.txt`;
     const scriptPath = path.join('/tmp', scriptFileName);
     fs.writeFileSync(scriptPath, script, 'utf8');
     console.log(`  Script saved to: ${scriptPath}`);
@@ -154,7 +159,7 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 3: Converting to audio...');
     console.log();
 
-    const episodeFileName = `AI-Briefing-${dateStr}.mp3`;
+    const episodeFileName = `AI-Briefing-${dateStr}-${buildSuffix}.mp3`;
     const audioPath = path.join('/tmp', episodeFileName);
     const { outputPath: finalAudioPath, characters: ttsCharacters } = await convertToAudio(script, audioPath);
 
