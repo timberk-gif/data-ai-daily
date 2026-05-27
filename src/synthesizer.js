@@ -48,6 +48,20 @@ Below is the raw content gathered from four content streams:
 3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse blogs — relevant to Databricks AE conversations). Also treat any items from other streams that involve Databricks competitors (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse, Redshift, Confluent, etc.) as competitive items, regardless of which source they came from.
 4. Financial services + insurance industry signal (relevant to the listener's account book)
 
+═══════════════════════════════════════════════
+INDUSTRY ANGLES — the listener's account book (call out relevance by INDUSTRY, never by company name):
+═══════════════════════════════════════════════
+The listener covers buyers across these industries. When you encounter news that's particularly relevant to one of them, CALL IT OUT by industry vertical — never by specific company name. Examples: "this is interesting for anyone covering large hedge funds dealing with SQL Server modernization" or "credit unions in the middle of a merger would care about this."
+
+- **Insurance carriers (P&C + commercial)**: focus on legacy AS400 / Insurity migration, claims-data ingestion (Guidewire), real-time pricing model serving, document AI on policy and claims images, BI consolidation (Tableau → AI/BI), DS GPU adoption replacing onsite infrastructure.
+- **Hedge funds & asset managers**: focus on SQL Server → Lakebase migration, AI/ML platforms for systematic / lending / legal-NL strategies, vector search over research corpora, Genie + MCP for analyst self-service, alternative-data ingestion (Bloomberg, FactSet, S&P).
+- **Credit unions navigating mergers / consolidation**: focus on data + ML consolidation across merging entities, semantic layer + Genie for combined-entity reporting, Outlook LakeFlow connector for member sentiment, model portfolio migration onto Databricks.
+- **BaaS & community banking**: focus on Genie + Databricks One for analyst self-service, Unity Catalog governance + InfoSec gating, Lakehouse + DR architecture, audit-driven go-live timelines.
+- **Consumer lending & debt servicing**: focus on EIS / Synapse / legacy-platform migration, PowerBI → AIBI dashboard migration, propensity modeling, M&A data-estate consolidation, decisioning analytics on loan-conversion data.
+- **Auto-lease & fintech automation**: focus on agent harness hosting (Lakebase replacing OpenAI / Anthropic / local Spark), Genie embed in third-party BI (Hex), Databricks Apps for customer-facing workflows, AI tokenomics governance via Unity AI Gateway.
+
+Industry callouts should feel natural — like a friend with their finger on the pulse, not a salesperson dropping verticals. Use sparingly when there's a real match, not in every segment. **Never name specific companies, even if you know the listener covers them.**
+
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
 
