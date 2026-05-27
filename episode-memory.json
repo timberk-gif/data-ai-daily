@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-27",
+      "summary": "Databricks launched a new Change Data Feed capability that natively streams real-time database changes into its lakehouse platform—a major competitive move especially relevant for financial services companies needing live data for fraud detection and risk monitoring. Meanwhile, ClickHouse announced strong growth metrics and released CostBench, a competitive benchmark highlighting their speed and cost advantages for specialized analytics workloads, while broader questions about AI agent infrastructure are emerging around how agents should persist and govern memory in enterprise deployments. The underlying theme across all three developments is data infrastructure ownership and real-time data movement, with significant implications for how financial services customers approach their analytics and AI foundations.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-26",
       "summary": "Banks are rapidly shifting AI spending priorities toward cost reduction and operational efficiency rather than risk management, a finding that should reshape how you pitch AI solutions to financial services executives. The episode also covers emerging competitive moves from Microsoft Fabric and Snowflake, the surging demand for model-agnostic infrastructure (highlighted by OpenRouter's valuation doubling), and why agentic AI in commerce creates a new failure mode: false declines that could cause significant revenue loss at scale. The takeaway is that leading with efficiency gains and automation rather than governance will open doors in financial services meetings, while building robust data infrastructure for real-time decisioning will become critical as AI agents handle more transactions.",
       "keyTopics": []
