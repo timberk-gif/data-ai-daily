@@ -30,16 +30,5 @@
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
-    <item>
-      <title>The Data &amp; AI Daily — 2026-05-26</title>
-      <description>This episode examines critical challenges and market shifts in enterprise AI, starting with new research proving large language models are systematically overconfident—a compliance risk in financial services that Databricks addresses through production-ready AI tracing and governance tools. The conversation also covers OpenRouter&apos;s billion-dollar valuation reflecting enterprise demand for model-agnostic platforms, competitive moves from Microsoft and Snowflake, and a crucial insight that banks are prioritizing AI for cost reduction over risk management, reshaping how vendors should pitch solutions to financial institutions.</description>
-      <itunes:summary>This episode examines critical challenges and market shifts in enterprise AI, starting with new research proving large language models are systematically overconfident—a compliance risk in financial services that Databricks addresses through production-ready AI tracing and governance tools. The conversation also covers OpenRouter&apos;s billion-dollar valuation reflecting enterprise demand for model-agnostic platforms, competitive moves from Microsoft and Snowflake, and a crucial insight that banks are prioritizing AI for cost reduction over risk management, reshaping how vendors should pitch solutions to financial institutions.</itunes:summary>
-      <pubDate>Tue, 26 May 2026 17:00:00 GMT</pubDate>
-      <enclosure url="https://timberk-gif.github.io/data-ai-daily/episodes/AI-Briefing-2026-05-26-260527035925.mp3" length="4099968" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://timberk-gif.github.io/data-ai-daily/episodes/AI-Briefing-2026-05-26-260527035925.mp3</guid>
-      <itunes:duration>256</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <itunes:episodeType>full</itunes:episodeType>
-    </item>
   </channel>
 </rss>
