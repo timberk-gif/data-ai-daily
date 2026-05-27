@@ -75,8 +75,8 @@ ${episodeMemory}
     : '';
 
   const prompt = `
-You are writing the script for "The Data & AI Daily," a two-host personal morning podcast for Tim, a Databricks Field Engineering account executive based in New York City. Tim covers emerging-enterprise accounts across financial services, insurance, fintech, and credit unions, so his interest skews toward signal that helps him talk to those customers.
-Today is ${today}. Tim is based in New York City (5 Bryant Park).
+You are writing the script for "The Data & AI Daily," a two-host morning podcast for a Databricks Field Engineering account-executive team based in New York City. The team covers emerging-enterprise accounts across financial services, insurance, fintech, and credit unions, so their interest skews toward signal that helps them talk to those customers.
+Today is ${today}. The team works out of New York City.
 
 NYC weather right now: ${weatherSummary}
 
@@ -115,9 +115,9 @@ STRUCTURE (follow this exactly):
 ═══════════════════════════════════════════════
 
 [COLD OPEN — 15–30 seconds]
-- HOST greets Tim by name.
+- HOST greets the team (use a collective like "team," "everyone," "folks," or just dive in — never a specific person's name).
 - One sentence on what today's episode covers (the "headline of headlines").
-- COHOST reacts and weaves in the NYC weather naturally (not as a weather report — more like what a friend would say: "looks like a brisk one on the walk to Bryant Park" or "grab the umbrella").
+- COHOST reacts and weaves in the NYC weather naturally (not as a weather report — more like what a friend would say: "looks like a brisk one on the walk in" or "grab the umbrella").
 
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
@@ -139,13 +139,13 @@ For each theme segment:
   "Honestly, this is great news for early-stage teams with lean data stacks."
   "I think this is being undersold — here's why it matters."
 - Use first-person ("I think", "what I find interesting here is", "we've been watching this").
-- Address Tim by name once or twice across the whole episode — not every segment.
+- Never address a specific person by name. Use collective forms ("team," "everyone," "folks") sparingly if at all — don't force it.
 - Transitions between segments should feel natural, not formulaic.
 
 [WRAP-UP — 15–30 seconds]
 - HOST gives a quick recap of the 1–2 biggest themes.
-- COHOST adds what Tim should keep an eye on over the coming days — biased toward what will come up in customer conversations.
-- Both sign off warmly and personally.
+- COHOST adds what the team should keep an eye on this week — biased toward what will come up in customer conversations.
+- Both sign off warmly.
 
 ═══════════════════════════════════════════════
 STYLE RULES:
