@@ -148,7 +148,7 @@ Return ONLY the two-speaker script with [HOST] and [COHOST] tags. No other label
       max_tokens: 150,
       messages: [{
         role: 'user',
-        content: `In 2-3 sentences, summarize the key topics covered in this podcast episode. Write it as a listener-facing description — informative and engaging, no host names or personal references.\n\nScript:\n${script}`,
+        content: `In 2-3 sentences, summarize the key topics covered in this podcast episode. Write it as a listener-facing description — informative and engaging, no host names or personal references. Plain prose only — no markdown headers, no bullet points, no preamble labels like "Episode Summary". Start the response directly with the substance.\n\nScript:\n${script}`,
       }],
     });
     if (!summaryMessage.content || summaryMessage.content.length === 0 || !summaryMessage.content[0].text) {
