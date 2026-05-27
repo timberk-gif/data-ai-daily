@@ -32,10 +32,13 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     <item>
       <title>${escapeXml(episode.title)}</title>
       <description>${escapeXml(episode.description)}</description>
+      <itunes:summary>${escapeXml(episode.description)}</itunes:summary>
       <pubDate>${pubDate}</pubDate>
       <enclosure url="${episodeUrl}" length="${episode.fileSizeBytes}" type="audio/mpeg"/>
       <guid isPermaLink="true">${episodeUrl}</guid>
       <itunes:duration>${episode.durationSeconds}</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
     </item>`;
 
   if (!existingFeedXml || existingFeedXml.trim() === '') {
@@ -48,6 +51,7 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     <title>${escapeXml(podcastInfo.title)}</title>
     <link>${baseUrl}</link>
     <description>${escapeXml(podcastInfo.description)}</description>
+    <itunes:summary>${escapeXml(podcastInfo.description)}</itunes:summary>
     <language>en-us</language>
     <itunes:image href="${baseUrl}/artwork.jpg"/>
     <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
@@ -58,16 +62,21 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
     ${newItem}
   </channel>
 </rss>`;
   }
 
-  // Subsequent runs — insert new item after opening <channel> tag
-  // Find the position after <itunes:explicit>...</itunes:explicit>
-  const insertPosition = existingFeedXml.indexOf('</itunes:explicit>');
+  // Subsequent runs — insert new item after the channel metadata block
+  // Find the channel-level <itunes:type>...</itunes:type> close (new feeds)
+  // Fall back to the channel-level </itunes:explicit> for older feeds without itunes:type
+  let insertPosition = existingFeedXml.indexOf('</itunes:type>');
   if (insertPosition === -1) {
-    throw new Error('Invalid feed XML: missing </itunes:explicit> tag');
+    insertPosition = existingFeedXml.indexOf('</itunes:explicit>');
+  }
+  if (insertPosition === -1) {
+    throw new Error('Invalid feed XML: missing channel-metadata anchor tag');
   }
 
   const insertPoint = existingFeedXml.indexOf('>', insertPosition) + 1;
