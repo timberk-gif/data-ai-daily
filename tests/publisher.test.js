@@ -142,10 +142,10 @@ describe('buildUpdatedFeed — subsequent run (existing feed)', () => {
     expect(newIdx).toBeLessThan(oldIdx);
   });
 
-  test('throws when existing feed is missing </itunes:explicit>', () => {
+  test('throws when existing feed is missing channel-metadata anchor', () => {
     const malformed = '<rss><channel><title>Broken</title></channel></rss>';
     expect(() => buildUpdatedFeed(malformed, baseEpisode, baseUrl, podcastInfo))
-      .toThrow('Invalid feed XML: missing </itunes:explicit> tag');
+      .toThrow('Invalid feed XML: missing channel-metadata anchor tag');
   });
 });
 
