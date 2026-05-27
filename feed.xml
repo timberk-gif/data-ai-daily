@@ -26,16 +26,5 @@ Banks are aggressively investing in AI primarily to cut operational costs rather
       <guid isPermaLink="true">https://timberk-gif.github.io/data-ai-daily/episodes/AI-Briefing-2026-05-26.mp3</guid>
       <itunes:duration>276</itunes:duration>
     </item>
-    
-    <item>
-      <title>The Data &amp; AI Daily — 2026-05-26</title>
-      <description># Episode Summary
-
-Databricks is making significant moves in production AI with new observability tools for agents and prompt caching for open-source models—capabilities that directly address enterprise concerns around auditability and cost efficiency that banks and financial institutions are prioritizing right now. Meanwhile, Microsoft Fabric and Google Cloud are both shipping competitive updates anchored around agentic AI, validating that the industry has shifted from &quot;should we build agents&quot; to &quot;how do we make them production-safe.&quot; The broader landscape signal: multi-model AI infrastructure is the future, banks are investing heavily in operational cost reduction over compliance, and overconfidence in LLM outputs is emerging as a critical risk for regulated industries.</description>
-      <pubDate>Tue, 26 May 2026 17:00:00 GMT</pubDate>
-      <enclosure url="https://timberk-gif.github.io/data-ai-daily/episodes/AI-Briefing-2026-05-26.mp3" length="4406400" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://timberk-gif.github.io/data-ai-daily/episodes/AI-Briefing-2026-05-26.mp3</guid>
-      <itunes:duration>275</itunes:duration>
-    </item>
   </channel>
 </rss>
