@@ -45,7 +45,7 @@ ${memoryContext}The show has two hosts:
 Below is the raw content gathered from four content streams:
 1. Databricks sources (blog, newsroom, release notes, exec social posts)
 2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news, arXiv, Hacker News)
-3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs — relevant to Databricks AE conversations). Also treat any items from other streams that involve Databricks competitors (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse, Redshift, Confluent, etc.) as competitive items, regardless of which source they came from.
+3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse blogs — relevant to Databricks AE conversations). Also treat any items from other streams that involve Databricks competitors (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse, Redshift, Confluent, etc.) as competitive items, regardless of which source they came from.
 4. Financial services + insurance industry signal (relevant to the listener's account book)
 
 YOUR TASK:

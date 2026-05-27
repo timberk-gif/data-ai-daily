@@ -481,6 +481,64 @@ async function fetchGoogleCloudDataBlog() {
   return fetchRSSFeed('https://cloudblog.withgoogle.com/products/data-analytics/rss/', 'Google Cloud Data Blog', 5);
 }
 
+/**
+ * Fetch ClickHouse blog — Next.js site, no public RSS, but __NEXT_DATA__ has structured posts
+ */
+async function fetchClickHouseBlog() {
+  console.log('Fetching ClickHouse blog...');
+  try {
+    const { data } = await axios.get('https://clickhouse.com/blog', {
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 15000,
+    });
+    const $ = cheerio.load(data);
+    const nextDataText = $('#__NEXT_DATA__').html();
+    if (!nextDataText) {
+      console.error('  ClickHouse: no __NEXT_DATA__ found in HTML');
+      return [];
+    }
+    const nextData = JSON.parse(nextDataText);
+
+    const items = [];
+    const seen = new Set();
+
+    const looksLikePersonName = (title) => {
+      const parts = title.trim().split(/\s+/);
+      if (parts.length > 3) return false;
+      return parts.every((p) => /^[A-Z][a-zA-Záàâäéèêëíìîïóòôöúùûüñç'-]+$/.test(p));
+    };
+
+    const walk = (obj) => {
+      if (Array.isArray(obj)) return obj.forEach(walk);
+      if (obj && typeof obj === 'object') {
+        if (obj.slug && obj.title && (obj.publishedAt || obj.date)) {
+          const { slug, title } = obj;
+          if (!seen.has(slug) && !looksLikePersonName(title) && title.length >= 15) {
+            seen.add(slug);
+            items.push({
+              title,
+              summary: (obj.description || obj.excerpt || obj.summary || '').toString().slice(0, 300),
+              date: obj.publishedAt || obj.date,
+              source: 'ClickHouse Blog',
+            });
+          }
+        }
+        Object.values(obj).forEach(walk);
+      }
+    };
+    walk(nextData);
+
+    // Most recent first, top 5
+    items.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const top = items.slice(0, 5);
+    console.log(`  Found ${top.length} ClickHouse posts`);
+    return top;
+  } catch (error) {
+    console.error('Error fetching ClickHouse blog:', error.message);
+    return [];
+  }
+}
+
 // ============================================================================
 // FINANCIAL SERVICES + INSURANCE INDUSTRY SOURCES
 // ============================================================================
@@ -565,12 +623,13 @@ async function fetchAINews() {
  * Fetch all competitive content (Snowflake, Fabric, BigQuery)
  */
 async function fetchCompetitiveContent() {
-  const [snowflake, fabric, bigquery] = await Promise.all([
+  const [snowflake, fabric, bigquery, clickhouse] = await Promise.all([
     fetchSnowflakeBlog(),
     fetchFabricBlog(),
     fetchGoogleCloudDataBlog(),
+    fetchClickHouseBlog(),
   ]);
-  return [...snowflake, ...fabric, ...bigquery];
+  return [...snowflake, ...fabric, ...bigquery, ...clickhouse];
 }
 
 /**
