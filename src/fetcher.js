@@ -576,6 +576,75 @@ async function fetchPYMNTS() {
 }
 
 // ============================================================================
+// COMMUNITY SENTIMENT SOURCES (REDDIT)
+// ============================================================================
+
+// Vendor / product keywords used to filter general subreddits for relevant posts.
+// Vendor-specific subreddits (see VENDOR_SUBREDDITS) bypass this filter — the
+// subreddit itself is already on-topic.
+const COMMUNITY_KEYWORDS = [
+  'databricks', 'snowflake', 'fabric', 'bigquery', 'redshift',
+  'clickhouse', 'delta lake', 'unity catalog', 'lakebase', 'mlflow',
+  'lakehouse', 'iceberg', 'dbt'
+];
+
+// Subreddits whose entire content is on-topic; skip keyword filtering for these.
+const VENDOR_SUBREDDITS = new Set(['databricks', 'snowflake', 'clickhouse']);
+
+function postMatchesKeywords(text) {
+  const lower = text.toLowerCase();
+  return COMMUNITY_KEYWORDS.some(kw => lower.includes(kw));
+}
+
+/**
+ * Fetch top posts of the day from one subreddit via Reddit's public JSON.
+ *
+ * General subreddits are filtered to posts mentioning a tracked vendor keyword;
+ * vendor-specific subreddits (r/databricks, r/snowflake) return all top posts.
+ *
+ * Usernames are intentionally omitted — we surface themes for the script,
+ * not individual quotes. Reddit's API terms restrict commercial use, so the
+ * synthesizer is instructed to paraphrase, not quote verbatim.
+ */
+async function fetchReddit(subreddit, maxItems = 8) {
+  console.log(`Fetching Reddit r/${subreddit}...`);
+
+  try {
+    const { data } = await axios.get(
+      `https://www.reddit.com/r/${subreddit}/top.json?t=day&limit=25`,
+      {
+        headers: { 'User-Agent': USER_AGENT },
+        timeout: 10000
+      }
+    );
+
+    const posts = (data?.data?.children || []).map(c => c.data);
+    const isVendorSub = VENDOR_SUBREDDITS.has(subreddit.toLowerCase());
+
+    const items = posts
+      .filter(p => !p.stickied && !p.over_18)
+      .filter(p => isVendorSub || postMatchesKeywords(`${p.title} ${p.selftext || ''}`))
+      .slice(0, maxItems)
+      .map(p => {
+        const body = (p.selftext || '').replace(/\s+/g, ' ').slice(0, 300);
+        const signal = `${p.score} upvotes, ${p.num_comments} comments`;
+        return {
+          title: p.title,
+          summary: body ? `${signal}. ${body}` : signal,
+          date: new Date(p.created_utc * 1000).toISOString(),
+          source: `Reddit r/${subreddit}`
+        };
+      });
+
+    console.log(`  Found ${items.length} relevant posts`);
+    return items;
+  } catch (error) {
+    console.error(`Error fetching Reddit r/${subreddit}:`, error.message);
+    return [];
+  }
+}
+
+// ============================================================================
 // MAIN EXPORT FUNCTIONS
 // ============================================================================
 
@@ -645,6 +714,27 @@ async function fetchFSIContent() {
   return [...insurance, ...bankingDive, ...americanBanker, ...pymnts];
 }
 
+/**
+ * Fetch community sentiment from a curated set of subreddits.
+ *
+ * Vendor-specific subs (r/databricks, r/snowflake) return all top-of-day posts;
+ * general subs are keyword-filtered for vendor mentions.
+ */
+async function fetchCommunitySentiment() {
+  const subs = [
+    'databricks',
+    'snowflake',
+    'clickhouse',
+    'dataengineering',
+    'MachineLearning',
+    'datascience',
+    'analytics'
+  ];
+
+  const results = await Promise.all(subs.map(s => fetchReddit(s)));
+  return results.flat();
+}
+
 module.exports = {
   fetchDatabricksReleaseNotes,
   fetchDatabricksBlog,
@@ -652,4 +742,6 @@ module.exports = {
   fetchAINews,
   fetchCompetitiveContent,
   fetchFSIContent,
+  fetchReddit,
+  fetchCommunitySentiment,
 };
