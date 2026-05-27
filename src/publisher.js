@@ -46,16 +46,17 @@ function buildUpdatedFeed(existingFeedXml, episode, baseUrl, podcastInfo) {
     return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${escapeXml(podcastInfo.title)}</title>
     <link>${baseUrl}</link>
+    <atom:link href="${baseUrl}/feed.xml" rel="self" type="application/rss+xml"/>
     <description>${escapeXml(podcastInfo.description)}</description>
     <itunes:summary>${escapeXml(podcastInfo.description)}</itunes:summary>
     <language>en-us</language>
     <itunes:image href="${baseUrl}/artwork-v2.jpg"/>
     <itunes:author>${escapeXml(podcastInfo.author)}</itunes:author>
-    <itunes:email>${escapeXml(podcastInfo.ownerEmail)}</itunes:email>
     <itunes:owner>
       <itunes:name>${escapeXml(podcastInfo.author)}</itunes:name>
       <itunes:email>${escapeXml(podcastInfo.ownerEmail)}</itunes:email>
