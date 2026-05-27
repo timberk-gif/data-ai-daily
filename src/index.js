@@ -13,7 +13,7 @@ const path = require('path');
 const fs = require('fs');
 const axios = require('axios');
 
-const { fetchDatabricksContent, fetchAINews, fetchCompetitiveContent, fetchFSIContent } = require('./fetcher');
+const { fetchDatabricksContent, fetchAINews, fetchCompetitiveContent, fetchFSIContent, fetchCommunitySentiment } = require('./fetcher');
 const { synthesizeScript } = require('./synthesizer');
 const { convertToAudio } = require('./tts');
 const { buildUpdatedFeed } = require('./publisher');
@@ -79,11 +79,12 @@ async function run({ dryRun = false } = {}) {
     console.log('STEP 1: Fetching content from sources...');
     console.log();
 
-    const [databricksData, aiNews, competitive, fsi] = await Promise.all([
+    const [databricksData, aiNews, competitive, fsi, community] = await Promise.all([
       fetchDatabricksContent(),
       fetchAINews(),
       fetchCompetitiveContent(),
       fetchFSIContent(),
+      fetchCommunitySentiment(),
     ]);
 
     const contentBundle = {
@@ -91,9 +92,10 @@ async function run({ dryRun = false } = {}) {
       aiNews: aiNews,
       competitive: competitive,
       fsi: fsi,
+      community: community,
     };
 
-    const totalItems = databricksData.items.length + aiNews.length + competitive.length + fsi.length;
+    const totalItems = databricksData.items.length + aiNews.length + competitive.length + fsi.length + community.length;
     console.log();
     console.log(`  Total items collected: ${totalItems}`);
 

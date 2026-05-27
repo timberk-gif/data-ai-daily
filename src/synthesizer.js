@@ -42,11 +42,12 @@ ${memoryContext}The show has two hosts:
 - HOST: The primary anchor. Drives the agenda, delivers the main stories, and keeps the episode moving.
 - COHOST: The color commentator. Adds reactions, counterpoints, follow-up questions, and personal takes.
 
-Below is the raw content gathered from four content streams:
+Below is the raw content gathered from five content streams:
 1. Databricks sources (blog, newsroom, release notes, exec social posts)
 2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news, arXiv, Hacker News)
 3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse blogs — relevant to Databricks AE conversations). Also treat any items from other streams that involve Databricks competitors (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse, Redshift, Confluent, etc.) as competitive items, regardless of which source they came from.
 4. Financial services + insurance industry signal (relevant to the listener's account book)
+5. Community sentiment (top Reddit posts of the day from r/databricks, r/snowflake, r/dataengineering, r/MachineLearning, r/datascience, r/analytics — keyword-filtered for vendor mentions in the general subs). Treat these as practitioner pulse, not news. Use them sparingly to surface what data engineers and ML practitioners are actually talking about: migration complaints, pricing reactions, "this just worked / this broke" anecdotes. Heavily weight signal (specific technical claims, named decisions, real migrations) over emotion ("X sucks", "Y is hype"). Paraphrase themes — never quote verbatim, never name a Reddit username, never cite "u/someone said". When community sentiment lines up with or contradicts a vendor's official messaging from streams 1 or 3, that's the highest-value use. If today's community items are all low-signal noise, skip them entirely — don't pad.
 
 YOUR TASK:
 Produce a complete, ready-to-record two-speaker podcast script for an 8–12 minute episode.
