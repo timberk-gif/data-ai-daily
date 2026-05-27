@@ -589,7 +589,7 @@ const COMMUNITY_KEYWORDS = [
 ];
 
 // Subreddits whose entire content is on-topic; skip keyword filtering for these.
-const VENDOR_SUBREDDITS = new Set(['databricks', 'snowflake']);
+const VENDOR_SUBREDDITS = new Set(['databricks', 'snowflake', 'clickhouse']);
 
 function postMatchesKeywords(text) {
   const lower = text.toLowerCase();
@@ -724,6 +724,7 @@ async function fetchCommunitySentiment() {
   const subs = [
     'databricks',
     'snowflake',
+    'clickhouse',
     'dataengineering',
     'MachineLearning',
     'datascience',
