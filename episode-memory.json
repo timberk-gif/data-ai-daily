@@ -2,7 +2,7 @@
   "episodes": [
     {
       "date": "2026-05-26",
-      "summary": "# Episode Summary\n\nThis episode examines critical challenges and market shifts in enterprise AI, starting with new research proving large language models are systematically overconfident—a compliance risk in financial services that Databricks addresses through production-ready AI tracing and governance tools. The conversation also covers OpenRouter's billion-dollar valuation reflecting enterprise demand for model-agnostic platforms, competitive moves from Microsoft and Snowflake, and a crucial insight that banks are prioritizing AI for cost reduction over risk management, reshaping how vendors should pitch solutions to financial institutions.",
+      "summary": "Banks are rapidly shifting AI spending priorities toward cost reduction and operational efficiency rather than risk management, a finding that should reshape how you pitch AI solutions to financial services executives. The episode also covers emerging competitive moves from Microsoft Fabric and Snowflake, the surging demand for model-agnostic infrastructure (highlighted by OpenRouter's valuation doubling), and why agentic AI in commerce creates a new failure mode: false declines that could cause significant revenue loss at scale. The takeaway is that leading with efficiency gains and automation rather than governance will open doors in financial services meetings, while building robust data infrastructure for real-time decisioning will become critical as AI agents handle more transactions.",
       "keyTopics": []
     }
   ]
