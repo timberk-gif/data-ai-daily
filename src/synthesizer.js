@@ -45,7 +45,7 @@ ${memoryContext}The show has two hosts:
 Below is the raw content gathered from four content streams:
 1. Databricks sources (blog, newsroom, release notes, exec social posts)
 2. Core AI/ML news (major tech outlets, foundation model lab blogs, startup/funding news, arXiv, Hacker News)
-3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs — relevant to Databricks AE conversations)
+3. Competitive intel (Snowflake, Microsoft Fabric, Google BigQuery blogs — relevant to Databricks AE conversations). Also treat any items from other streams that involve Databricks competitors (Snowflake, Microsoft Fabric, Google BigQuery, ClickHouse, Redshift, Confluent, etc.) as competitive items, regardless of which source they came from.
 4. Financial services + insurance industry signal (relevant to the listener's account book)
 
 YOUR TASK:
@@ -80,7 +80,7 @@ STRUCTURE (follow this exactly):
 [THEME SEGMENTS — 3 to 6 segments, each ~1–2 minutes]
 Cluster today's news into 3–6 named themes. Choose theme names that fit the actual news.
 Good examples: "Databricks Product & Platform", "Lakehouse Ecosystem & Partners",
-"LLM & Agent Breakthroughs", "Competitive Moves" (Snowflake / Fabric / BigQuery),
+"LLM & Agent Breakthroughs", "Competitive Moves" (Snowflake / Fabric / BigQuery / ClickHouse / Redshift / Confluent / others),
 "FinServ + Insurance Data Trends" (when there's relevant FSI signal),
 "Regulation & Policy", "Startup & Funding Moves", "Open Source & Research".
 Discard low-signal or redundant items — not everything needs coverage.
