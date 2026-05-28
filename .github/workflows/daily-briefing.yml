@@ -30,9 +30,17 @@ jobs:
 
       - name: Skip if today already published
         id: dedupe
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date -u +%Y-%m-%d)
-          FEED=$(curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/feed.xml" 2>/dev/null || true)
+          # Use the Contents API (not raw.githubusercontent.com) — the raw
+          # endpoint has a ~5-minute CDN cache that could serve a stale feed
+          # if the primary and backstop runs land close together. The API
+          # is always fresh.
+          FEED=$(gh api -H "Accept: application/vnd.github.raw" \
+                   "repos/${{ github.repository }}/contents/feed.xml?ref=gh-pages" \
+                   2>/dev/null || true)
           if printf '%s' "$FEED" | grep -q "$DATE</title>"; then
             echo "Episode for $DATE already in feed — skipping pipeline."
             echo "skip=true" >> "$GITHUB_OUTPUT"
