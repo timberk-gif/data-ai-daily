@@ -2,9 +2,13 @@ name: Daily AI Briefing
 
 on:
   schedule:
-    # Run at 10:30 AM UTC on weekdays only
-    # (6:30 AM EDT / 5:30 AM EST — NYC morning)
+    # Primary: 10:30 UTC weekdays (6:30 AM EDT / 5:30 AM EST — NYC morning)
     - cron: '30 10 * * 1-5'
+    # Backstop: 12:30 UTC weekdays. GitHub Actions scheduled workflows are
+    # unreliable — runs can be delayed for hours or skipped entirely during
+    # high load. The dedupe guard below makes it safe to fire both: if the
+    # primary already published today's episode, this run exits early.
+    - cron: '30 12 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
 # Required so the Action can commit to gh-pages
@@ -24,13 +28,29 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Skip if today already published
+        id: dedupe
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          FEED=$(curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/feed.xml" 2>/dev/null || true)
+          if printf '%s' "$FEED" | grep -q "$DATE</title>"; then
+            echo "Episode for $DATE already in feed — skipping pipeline."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No episode for $DATE yet — will publish."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Install dependencies
+        if: steps.dedupe.outputs.skip != 'true'
         run: npm ci
 
       - name: Write GCP credentials
+        if: steps.dedupe.outputs.skip != 'true'
         run: echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > gcp-key.json
 
       - name: Run pipeline
+        if: steps.dedupe.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: ./gcp-key.json
