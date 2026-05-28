@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-28",
+      "summary": "Enterprise AI has moved past the \"wow factor\" and into the critical phase of safe, broad deployment — a shift that's reshaping how data platforms compete and how you should be pitching to financial services customers. Databricks is positioning itself as the comprehensive operational platform with governance built in, while competitors like ClickHouse, Snowflake, and Microsoft Fabric are aggressively shipping capabilities this week, forcing conversations around specialization versus consolidation. Meanwhile, banks are feeling margin pressure from inflation and wrestling with how AI actually transforms their business models, making efficiency and operational readiness the central story in your sales conversations rather than technology demos alone.",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-27",
       "summary": "Databricks is making aggressive moves to position itself as an operational database platform, not just an analytics tool—launching Always-On pricing for cost optimization and demonstrating cloud resilience alongside yesterday's Change Data Feed announcement. The competitive landscape is heating up, with ClickHouse crossing $250M ARR and launching new serverless observability features, Microsoft Fabric rolling out CDC capabilities, and Snowflake planting flags in the agentic AI space. In financial services, urgency is accelerating: Jamie Dimon flagged AI as a competitive threat banks must move on, bank margins are tightening, and major consolidation deals like Santander-Webster are creating data infrastructure challenges that open doors for lakehouse",
       "keyTopics": []
