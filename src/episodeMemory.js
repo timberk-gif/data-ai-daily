@@ -100,7 +100,13 @@ async function extractKeyTopics(script) {
       }],
     });
 
-    const text = message.content[0].text.trim();
+    // Haiku occasionally wraps the array in a ```json code fence despite the
+    // prompt asking it not to. Strip any fence before parsing so a stray
+    // backtick doesn't blow up JSON.parse and silently drop all topics.
+    const text = message.content[0].text.trim()
+      .replace(/^```(?:json)?\s*/i, '')
+      .replace(/\s*```$/, '')
+      .trim();
     const parsed = JSON.parse(text);
     const topics = Array.isArray(parsed) ? parsed.slice(0, 8) : [];
 
