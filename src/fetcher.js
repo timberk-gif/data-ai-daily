@@ -258,12 +258,9 @@ async function scrapeBlog(url, sourceName, selectors, maxItems = 5) {
  */
 async function fetchOpenAIBlog() {
   console.log('Fetching OpenAI blog...');
-  return scrapeBlog(
-    'https://openai.com/blog',
-    'OpenAI Blog',
-    { container: 'article, .post', title: 'h2, h3, .title', summary: 'p', date: 'time, .date' },
-    5
-  );
+  // Scraping openai.com/blog returns 403 (bot protection). The blog moved to
+  // /news and exposes a stable RSS feed, so pull that instead of scraping HTML.
+  return fetchRSSFeed('https://openai.com/news/rss.xml', 'OpenAI Blog', 5);
 }
 
 /**
