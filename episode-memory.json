@@ -1,6 +1,11 @@
 {
   "episodes": [
     {
+      "date": "2026-05-29",
+      "summary": "Databricks has launched Apache Iceberg v3 with open sharing and unified governance capabilities, positioning it as a vendor-neutral data format that enables multi-cloud flexibility and compliance tracking—a strategic move that contrasts with Microsoft Fabric's Delta-focused approach and matters heavily for financial services customers managing scattered legacy systems. Meanwhile, Anthropic's near-trillion-dollar valuation after raising $65 billion signals intensifying model competition, reinforcing the need for model-agnostic data platforms that can swap frontier models without architectural overhauls, while enterprise AI agents are scaling from experiment to production in financial services, with Wells Fargo and Capital One leading the way on the operational and organizational transformation side. The week also",
+      "keyTopics": []
+    },
+    {
       "date": "2026-05-28",
       "summary": "Enterprise AI has moved past the \"wow factor\" and into the critical phase of safe, broad deployment — a shift that's reshaping how data platforms compete and how you should be pitching to financial services customers. Databricks is positioning itself as the comprehensive operational platform with governance built in, while competitors like ClickHouse, Snowflake, and Microsoft Fabric are aggressively shipping capabilities this week, forcing conversations around specialization versus consolidation. Meanwhile, banks are feeling margin pressure from inflation and wrestling with how AI actually transforms their business models, making efficiency and operational readiness the central story in your sales conversations rather than technology demos alone.",
       "keyTopics": []
