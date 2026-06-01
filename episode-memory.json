@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-01",
+      "summary": "Snowflake's acquisition of Natoma signals an aggressive push to control how AI agents access enterprise data through governed access layers, positioning this as a competitive battleground where Databricks' Unity Catalog offers broader cross-platform governance as an alternative framing. In financial services, the convergence of AI-driven underwriting boosting risk appetite, ongoing bank consolidation creating complex data integration challenges, and smaller credit unions gaining enterprise-grade AI capabilities through simplified platforms creates urgent demand for real-time, scalable data infrastructure. The broader context shows every major vendor racing to own the agentic layer while model providers continue rapid iteration, making data platform agnosticism—rather than vendor or model lock-in—the key positioning argument",
+      "keyTopics": [
+        "Snowflake acquires Natoma for governed agentic access",
+        "Snowflake Metadata Hub data estate control plane",
+        "Claude Opus 4.8 added to Snowflake Cortex",
+        "ClickHouse launches managed Postgres beta",
+        "ClickHouse Cloud multi-stage distributed query execution",
+        "AI-driven underwriting reshaping bank risk appetite",
+        "Credit unions leveraging AI for competitive growth",
+        "Model-agnostic data infrastructure versus model lock-in"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "summary": "Databricks has launched Apache Iceberg v3 with open sharing and unified governance capabilities, positioning it as a vendor-neutral data format that enables multi-cloud flexibility and compliance tracking—a strategic move that contrasts with Microsoft Fabric's Delta-focused approach and matters heavily for financial services customers managing scattered legacy systems. Meanwhile, Anthropic's near-trillion-dollar valuation after raising $65 billion signals intensifying model competition, reinforcing the need for model-agnostic data platforms that can swap frontier models without architectural overhauls, while enterprise AI agents are scaling from experiment to production in financial services, with Wells Fargo and Capital One leading the way on the operational and organizational transformation side. The week also",
       "keyTopics": []
