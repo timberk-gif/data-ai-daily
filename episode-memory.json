@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-02",
+      "summary": "Anthropic's confidential IPO filing marks a watershed moment for AI infrastructure, prompting enterprise customers to reconsider vendor lock-in risks and model strategy as public market scrutiny reshapes pricing and reliability conversations. ClickHouse published a competitive benchmark against Databricks and other platforms, though listeners should recognize it as specialized marketing rather than a replacement for governed lakehouse infrastructure, while recent innovations like Databricks' Liquid Clustering and database branching offer concrete selling points for modernization efforts. Across financial services, fintechs are outpacing legacy banks by four times, unpatched software has emerged as the top breach vector according to Verizon's research, and AI is being repositioned as",
+      "keyTopics": [
+        "Anthropic IPO filing reshapes model strategy",
+        "ClickHouse benchmark challenges Databricks cost claims",
+        "Databricks Liquid Clustering and Lakebase database branching",
+        "Fintech revenue growth outpaces legacy banks",
+        "Unpatched software as top bank cybersecurity vector",
+        "AI as core modernization shortcut for banks",
+        "Model-agnostic infrastructure hedge against vendor lock-in"
+      ]
+    },
+    {
       "date": "2026-06-01",
       "summary": "Snowflake's acquisition of Natoma signals an aggressive push to control how AI agents access enterprise data through governed access layers, positioning this as a competitive battleground where Databricks' Unity Catalog offers broader cross-platform governance as an alternative framing. In financial services, the convergence of AI-driven underwriting boosting risk appetite, ongoing bank consolidation creating complex data integration challenges, and smaller credit unions gaining enterprise-grade AI capabilities through simplified platforms creates urgent demand for real-time, scalable data infrastructure. The broader context shows every major vendor racing to own the agentic layer while model providers continue rapid iteration, making data platform agnosticism—rather than vendor or model lock-in—the key positioning argument",
       "keyTopics": [
