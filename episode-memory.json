@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-05",
+      "summary": "This episode covers four major developments reshaping enterprise AI and data strategy: Databricks' faster Knowledge Assistant search capabilities and Genie's expansion into industry-specific use cases, Microsoft's Operations Agent launch in Fabric and the ongoing battle for governance layer control across cloud platforms, a bipartisan congressional push for federal AI preemption that could upend state-level regulations and create new opportunities for flexible governance infrastructure, and Anthropic's rapidly accelerating IPO trajectory with annualized revenues hitting $47 billion. The underlying theme connects all these stories: enterprise customers need data infrastructure that's adaptable, governed, and not locked into single vendors or cloud platforms as the AI landscape shifts at unprecedented speed.",
+      "keyTopics": [
+        "Databricks Knowledge Assistant parallel search scaling",
+        "Databricks Genie verticalized expansion across industries",
+        "Microsoft Fabric Operations Agent general availability",
+        "House AI preemption bill prohibits state regulation",
+        "Bank of America real-time cross-border payments",
+        "Anthropic IPO S-1 filing 47B annualized revenue",
+        "Enterprise data governance layer vendor lock-in debate"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "summary": "This episode covers three major industry developments: Databricks released Cross-Engine Attribute-Based Access Control, extending unified data governance across multiple computing engines—a significant advantage for regulated industries managing complex, multi-tool environments. Microsoft continues its post-Build momentum with Graph going GA in Fabric and the launch of Fabric Skills, positioning itself as a comprehensive AI-native data platform, though with less openness than competing approaches. The episode also threads together critical signals for financial services: fintech revenue is growing four times faster than traditional banking, creating structural pressure on legacy institutions; AI-enabled cyber threats are accelerating and becoming a security imperative alongside compliance; and new regulatory frameworks for AI governance are emerging, while data infrastructure gaps (from",
       "keyTopics": [
