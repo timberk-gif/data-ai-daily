@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-08",
+      "summary": "Rising AI inference costs are pushing enterprises to reconsider their model dependencies, with industry experts warning that subsidized pricing will likely end as major AI companies move toward public markets—making model-agnostic infrastructure a critical competitive advantage. Meanwhile, federal regulators are tightening oversight of private credit exposure and revamping bank examination frameworks, transforming data infrastructure from a nice-to-have into a compliance necessity for financial institutions. These parallel pressures create immediate selling opportunities around vendor optionality and regulatory-driven data visibility requirements.",
+      "keyTopics": [
+        "AI token pricing increases heading toward IPO",
+        "Anthropic S-1 filing and revenue impact",
+        "Model-agnostic inference layer competitive advantage",
+        "DeepSeek V4 Pro beating GPT-5.5 Pro",
+        "Fed private credit exposure data collection mandate",
+        "Hedge funds building catastrophe risk trading desks",
+        "Microsoft Fabric Operations Agent general availability",
+        "Databricks Lakebase database branching methodology"
+      ]
+    },
+    {
       "date": "2026-06-05",
       "summary": "This episode covers four major developments reshaping enterprise AI and data strategy: Databricks' faster Knowledge Assistant search capabilities and Genie's expansion into industry-specific use cases, Microsoft's Operations Agent launch in Fabric and the ongoing battle for governance layer control across cloud platforms, a bipartisan congressional push for federal AI preemption that could upend state-level regulations and create new opportunities for flexible governance infrastructure, and Anthropic's rapidly accelerating IPO trajectory with annualized revenues hitting $47 billion. The underlying theme connects all these stories: enterprise customers need data infrastructure that's adaptable, governed, and not locked into single vendors or cloud platforms as the AI landscape shifts at unprecedented speed.",
       "keyTopics": [
