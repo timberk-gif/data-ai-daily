@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-10",
+      "summary": "Databricks made a strategic move by rapidly integrating Anthropic's new Claude Fable 5 model through its Unity AI Gateway, positioning governance as the key differentiator when foundation model providers face post-IPO pricing pressure—allowing customers to swap models without engineering disruption. Meanwhile, Databricks published a compliance-focused blog on modernizing anti-money laundering infrastructure through lakehouse architecture, creating a concrete opening for conversations with mid-size banks and credit unions facing increased regulatory scrutiny. The episode also covered competitive signals including Snowflake's consumer-facing AI agents, ClickHouse's real-time analytics strength in hedge funds, emerging IP disputes in fintech around AI model ownership, and how",
+      "keyTopics": [
+        "Claude Fable 5 Databricks Unity AI Gateway launch",
+        "Databricks modern BSA AML compliance vertical",
+        "AWS Bedrock Anthropic data-sharing requirements fintech",
+        "Snowflake CoWork personal work agent platform",
+        "ClickHouse petabyte-scale real-time analytics QRT",
+        "Pagaya suing Klarna AI model IP dispute",
+        "Credit union personalized member relationship AI advantage"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "summary": "OpenAI has filed for its IPO alongside Anthropic, signaling a major shift in how enterprises should think about AI vendor risk and pricing exposure as these foundation model providers move toward public markets and quarterly earnings pressures. The episode explores how this development creates immediate conversations around infrastructure flexibility and model-agnostic data platforms, while also covering Microsoft's new SharePoint integration in Fabric, shifting regulatory dynamics in financial services, and an interesting finding that credit unions may actually have an AI advantage over fintechs due to their deeper relationship data. Together, these stories underscore why well-governed, adaptive data infrastructure is becoming strategically essential for financial services institutions navigating both vendor dependency and regulatory uncertainty.",
       "keyTopics": [
