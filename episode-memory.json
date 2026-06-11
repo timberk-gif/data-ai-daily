@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-11",
+      "summary": "Databricks announced a new storage ecosystem that lets enterprises govern data in place rather than forcing migration to a centralized lakehouse—a significant shift for regulated industries like banking and fintech that face regulatory constraints and legacy system dependencies. The episode also highlights a critical wrinkle in Anthropic's data retention policy: the new Claude models require 30-day data retention when accessed via API, a compliance concern that makes governed inference layers like Databricks' Unity AI Gateway a practical necessity for financial institutions. Additional coverage includes competitive moves from Snowflake and ClickHouse, the escalating Pagaya-Klarna AI trade secret lawsuit signaling unclear IP boundaries in fintech partnerships, CFPB leadership changes,",
+      "keyTopics": [
+        "Databricks storage ecosystem federated governance announcement",
+        "Anthropic Fable 5 thirty-day data retention requirement",
+        "Pagaya versus Klarna AI trade secret lawsuit",
+        "Snowflake Cortex AI Claude Fable 5 integration",
+        "ClickHouse Claude-powered agentic analytics public beta",
+        "CFPB permanent director nominee Brian Johnson confirmation",
+        "California banks regulatory arbitrage federal charter migration",
+        "Amazon AI infrastructure seventeen point five billion debt"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "summary": "Databricks made a strategic move by rapidly integrating Anthropic's new Claude Fable 5 model through its Unity AI Gateway, positioning governance as the key differentiator when foundation model providers face post-IPO pricing pressure—allowing customers to swap models without engineering disruption. Meanwhile, Databricks published a compliance-focused blog on modernizing anti-money laundering infrastructure through lakehouse architecture, creating a concrete opening for conversations with mid-size banks and credit unions facing increased regulatory scrutiny. The episode also covered competitive signals including Snowflake's consumer-facing AI agents, ClickHouse's real-time analytics strength in hedge funds, emerging IP disputes in fintech around AI model ownership, and how",
       "keyTopics": [
