@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-15",
+      "summary": "The US government's surprise suspension of Anthropic's Fable 5 and Mythos 5 models this weekend has exposed critical vulnerabilities in financial institutions' AI infrastructure, particularly for banks and insurers running production workloads on single foundation models without contingency plans. Databricks is positioning itself as the solution through its model-agnostic Unity AI Gateway and new Omnigent orchestration framework, which enable organizations to swap between models seamlessly and govern multi-agent AI systems at enterprise scale — capabilities that financial services firms increasingly need as agentic AI moves from proof-of-concept into regulated production environments. The episode also covers competitive moves from Snowflake, Google Cloud, and Click",
+      "keyTopics": [
+        "US government suspends Anthropic Fable 5 and Mythos 5",
+        "Databricks Unity AI Gateway model-agnostic routing",
+        "Databricks Omnigent multi-agent orchestration framework",
+        "Databricks cross-source reasoning federated data access",
+        "Snowflake semantic foundation for enterprise AI",
+        "Google Cloud Open Knowledge Format agentic systems",
+        "Geopolitical risk modeling for banks and insurers",
+        "KPMG AI hallucination report retraction governance lesson"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "summary": "This episode explores three major developments reshaping AI adoption in regulated industries: PNC Bank's CEO publicly committing to building internal AI infrastructure to mitigate vendor costs and dependency risks, signaling a strategic shift that mid-market financial institutions are now watching closely; Anthropic's partnership with DXC Technology to embed Claude directly into banking and airline systems, which creates urgent demand for governed inference layers to ensure compliance; and a real-world case study from ERGO Hestia insurance demonstrating how Databricks' unified platform enables near-real-time pricing model deployment at production scale. The conversation frames these developments as interconnected signals that financial services and insurance firms now face a choice between building owned infrastructure, purchasing through integ",
       "keyTopics": [
@@ -149,11 +163,6 @@
     {
       "date": "2026-05-27",
       "summary": "Databricks is making aggressive moves to position itself as an operational database platform, not just an analytics tool—launching Always-On pricing for cost optimization and demonstrating cloud resilience alongside yesterday's Change Data Feed announcement. The competitive landscape is heating up, with ClickHouse crossing $250M ARR and launching new serverless observability features, Microsoft Fabric rolling out CDC capabilities, and Snowflake planting flags in the agentic AI space. In financial services, urgency is accelerating: Jamie Dimon flagged AI as a competitive threat banks must move on, bank margins are tightening, and major consolidation deals like Santander-Webster are creating data infrastructure challenges that open doors for lakehouse",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-26",
-      "summary": "Banks are rapidly shifting AI spending priorities toward cost reduction and operational efficiency rather than risk management, a finding that should reshape how you pitch AI solutions to financial services executives. The episode also covers emerging competitive moves from Microsoft Fabric and Snowflake, the surging demand for model-agnostic infrastructure (highlighted by OpenRouter's valuation doubling), and why agentic AI in commerce creates a new failure mode: false declines that could cause significant revenue loss at scale. The takeaway is that leading with efficiency gains and automation rather than governance will open doors in financial services meetings, while building robust data infrastructure for real-time decisioning will become critical as AI agents handle more transactions.",
       "keyTopics": []
     }
   ]
