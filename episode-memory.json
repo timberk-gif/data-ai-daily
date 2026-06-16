@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-16",
+      "summary": "This episode breaks down three critical developments for enterprise technology leaders: the government's suspension of Anthropic's Fable 5 and Mythos 5 models, which was triggered by a routine coding prompt rather than a sophisticated attack—raising urgent questions about model governance and infrastructure flexibility for financial services institutions; Snowflake's new AIM migration platform versus Databricks' counter-narrative of federated governance that allows data to stay in place, a distinction that matters significantly for regulated accounts with compliance constraints. The episode also flags emerging FSI signals—insurance industry concerns about real-time risk prediction and data integration, banking leadership transitions at Truist, payments consolidation through the Nuvei-Payoneer",
+      "keyTopics": [
+        "Anthropic Fable 5 government suspension regulatory risk",
+        "Snowflake AIM migration platform competitive response",
+        "Databricks federated governance alternative to migration",
+        "Insurance risk prediction real-time data infrastructure",
+        "TCS Anthropic partnership systems integrator consolidation",
+        "Nuvei Payoneer payments consolidation data integration",
+        "OpenAI Partner Network enterprise AI deployment",
+        "Model vendor risk governance and contingency planning"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "summary": "The US government's surprise suspension of Anthropic's Fable 5 and Mythos 5 models this weekend has exposed critical vulnerabilities in financial institutions' AI infrastructure, particularly for banks and insurers running production workloads on single foundation models without contingency plans. Databricks is positioning itself as the solution through its model-agnostic Unity AI Gateway and new Omnigent orchestration framework, which enable organizations to swap between models seamlessly and govern multi-agent AI systems at enterprise scale — capabilities that financial services firms increasingly need as agentic AI moves from proof-of-concept into regulated production environments. The episode also covers competitive moves from Snowflake, Google Cloud, and Click",
       "keyTopics": [
@@ -158,11 +172,6 @@
     {
       "date": "2026-05-28",
       "summary": "Enterprise AI has moved past the \"wow factor\" and into the critical phase of safe, broad deployment — a shift that's reshaping how data platforms compete and how you should be pitching to financial services customers. Databricks is positioning itself as the comprehensive operational platform with governance built in, while competitors like ClickHouse, Snowflake, and Microsoft Fabric are aggressively shipping capabilities this week, forcing conversations around specialization versus consolidation. Meanwhile, banks are feeling margin pressure from inflation and wrestling with how AI actually transforms their business models, making efficiency and operational readiness the central story in your sales conversations rather than technology demos alone.",
-      "keyTopics": []
-    },
-    {
-      "date": "2026-05-27",
-      "summary": "Databricks is making aggressive moves to position itself as an operational database platform, not just an analytics tool—launching Always-On pricing for cost optimization and demonstrating cloud resilience alongside yesterday's Change Data Feed announcement. The competitive landscape is heating up, with ClickHouse crossing $250M ARR and launching new serverless observability features, Microsoft Fabric rolling out CDC capabilities, and Snowflake planting flags in the agentic AI space. In financial services, urgency is accelerating: Jamie Dimon flagged AI as a competitive threat banks must move on, bank margins are tightening, and major consolidation deals like Santander-Webster are creating data infrastructure challenges that open doors for lakehouse",
       "keyTopics": []
     }
   ]
