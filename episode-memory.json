@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-18",
+      "summary": "This episode examines the gap between AI adoption claims and actual deployment in financial services, revealing that only 30% of firms use AI for customer retention despite widespread investment. The discussion centers on how Databricks and NVIDIA are positioning an integrated full-stack approach for enterprise agentic AI with governance and security built in, while Microsoft Fabric and Snowflake pursue competing strategies in this emerging space. Key signals for financial institutions include new Fed leadership that may increase demand for scenario modeling, persistent untapped opportunities in AI-driven customer retention, and growing concerns about geopolitical risk and vendor lock-in that make federated, governed AI infrastructure a business continuity priority.",
+      "keyTopics": [
+        "Databricks NVIDIA agentic AI full-stack partnership",
+        "Financial services AI adoption gap customer retention",
+        "Databricks Unity Catalog governance and federated data",
+        "Microsoft Fabric ServiceNow zero-copy OneLake integration",
+        "Credit unions AI explainability and trust governance",
+        "Federal Reserve Kevin Warsh forward guidance policy",
+        "Sovereign AI capabilities geopolitical risk mitigation"
+      ]
+    },
+    {
       "date": "2026-06-17",
       "summary": "Databricks announced several major product launches aimed at the agentic AI era, including OpenSharing—an evolution of Delta Sharing that lets AI agents access and reason over data across organizations without moving it—plus Apps on the Databricks Marketplace and Governed Vibe Coding for enterprise control. Microsoft and Databricks deepened their partnership by enabling Azure Databricks to store Unity Catalog tables directly in OneLake, removing a major adoption barrier for Azure-embedded financial institutions while maintaining Databricks' governance layer. On the regulatory front, a Democratic congressman publicly warned that AI could trigger bank runs in seconds, while PwC data shows AI maturity is now a valuation factor in insurance M&A",
       "keyTopics": [
@@ -177,11 +190,6 @@
         "Credit unions leveraging AI for competitive growth",
         "Model-agnostic data infrastructure versus model lock-in"
       ]
-    },
-    {
-      "date": "2026-05-29",
-      "summary": "Databricks has launched Apache Iceberg v3 with open sharing and unified governance capabilities, positioning it as a vendor-neutral data format that enables multi-cloud flexibility and compliance tracking—a strategic move that contrasts with Microsoft Fabric's Delta-focused approach and matters heavily for financial services customers managing scattered legacy systems. Meanwhile, Anthropic's near-trillion-dollar valuation after raising $65 billion signals intensifying model competition, reinforcing the need for model-agnostic data platforms that can swap frontier models without architectural overhauls, while enterprise AI agents are scaling from experiment to production in financial services, with Wells Fargo and Capital One leading the way on the operational and organizational transformation side. The week also",
-      "keyTopics": []
     }
   ]
 }
