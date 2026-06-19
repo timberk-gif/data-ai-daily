@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-19",
+      "summary": "This episode digs into three major developments reshaping enterprise AI and financial services. First, Anthropic is positioning autonomous agents as the future of banking, shifting from \"prompting\" to \"delegating,\" which opens critical questions about governance and regulated deployment that create opportunities for data infrastructure vendors. Second, Snowflake is making a strategic play into governed agentic AI with Claude integration, directly competing with Databricks, though Databricks' federated data access approach offers a real advantage for banks with complex hybrid environments that can't afford data migration. Finally, geopolitical tensions around the Middle East and emerging risk categories like orbital AI data centers are creating urgent demand among insurers and banks for real-time risk modeling and data",
+      "keyTopics": [
+        "Anthropic banking summit agentic AI delegation pitch",
+        "Snowflake Cortex AI and Claude Fable 5 integration",
+        "Databricks federated data access versus Snowflake centralized governance",
+        "Real-time fraud detection and elder scam prevention banking",
+        "Geopolitical risk modeling and catastrophe insurance stress testing",
+        "Baseten inference infrastructure fundraising and valuation growth",
+        "OpenAI IPO positioning and AI policy leadership hiring"
+      ]
+    },
+    {
       "date": "2026-06-18",
       "summary": "This episode examines the gap between AI adoption claims and actual deployment in financial services, revealing that only 30% of firms use AI for customer retention despite widespread investment. The discussion centers on how Databricks and NVIDIA are positioning an integrated full-stack approach for enterprise agentic AI with governance and security built in, while Microsoft Fabric and Snowflake pursue competing strategies in this emerging space. Key signals for financial institutions include new Fed leadership that may increase demand for scenario modeling, persistent untapped opportunities in AI-driven customer retention, and growing concerns about geopolitical risk and vendor lock-in that make federated, governed AI infrastructure a business continuity priority.",
       "keyTopics": [
@@ -175,20 +188,6 @@
         "Unpatched software as top bank cybersecurity vector",
         "AI as core modernization shortcut for banks",
         "Model-agnostic infrastructure hedge against vendor lock-in"
-      ]
-    },
-    {
-      "date": "2026-06-01",
-      "summary": "Snowflake's acquisition of Natoma signals an aggressive push to control how AI agents access enterprise data through governed access layers, positioning this as a competitive battleground where Databricks' Unity Catalog offers broader cross-platform governance as an alternative framing. In financial services, the convergence of AI-driven underwriting boosting risk appetite, ongoing bank consolidation creating complex data integration challenges, and smaller credit unions gaining enterprise-grade AI capabilities through simplified platforms creates urgent demand for real-time, scalable data infrastructure. The broader context shows every major vendor racing to own the agentic layer while model providers continue rapid iteration, making data platform agnosticism—rather than vendor or model lock-in—the key positioning argument",
-      "keyTopics": [
-        "Snowflake acquires Natoma for governed agentic access",
-        "Snowflake Metadata Hub data estate control plane",
-        "Claude Opus 4.8 added to Snowflake Cortex",
-        "ClickHouse launches managed Postgres beta",
-        "ClickHouse Cloud multi-stage distributed query execution",
-        "AI-driven underwriting reshaping bank risk appetite",
-        "Credit unions leveraging AI for competitive growth",
-        "Model-agnostic data infrastructure versus model lock-in"
       ]
     }
   ]
