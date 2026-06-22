@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-22",
+      "summary": "This episode examines the regulatory pressure facing Anthropic and its ripple effects across financial services—particularly for banks and insurers relying on Claude in production systems—while highlighting the urgent need for model-agnostic infrastructure that can swap vendors without disruption. The conversation also surfaces a critical data governance opportunity in the insurance industry, where private credit investments held in offshore reinsurance vehicles lack adequate reporting infrastructure and real-time visibility, creating both regulatory risk and a platform selling opportunity around unified data and stress-testing capabilities. Additional segments cover emerging use cases in elder fraud detection for credit unions and broader signals that AI differentiation is shifting from features to foundational data infrastructure.",
+      "keyTopics": [
+        "Trump administration pressure on Anthropic",
+        "Model vendor risk in financial services",
+        "Databricks Unity Catalog model-agnostic routing",
+        "Snowflake Cortex agentic AI architecture",
+        "Private credit opacity in insurance regulation",
+        "Real-time elder fraud detection AI",
+        "Enterprise AI governance and cost controls",
+        "John Jumper joins Anthropic from DeepMind"
+      ]
+    },
+    {
       "date": "2026-06-19",
       "summary": "This episode digs into three major developments reshaping enterprise AI and financial services. First, Anthropic is positioning autonomous agents as the future of banking, shifting from \"prompting\" to \"delegating,\" which opens critical questions about governance and regulated deployment that create opportunities for data infrastructure vendors. Second, Snowflake is making a strategic play into governed agentic AI with Claude integration, directly competing with Databricks, though Databricks' federated data access approach offers a real advantage for banks with complex hybrid environments that can't afford data migration. Finally, geopolitical tensions around the Middle East and emerging risk categories like orbital AI data centers are creating urgent demand among insurers and banks for real-time risk modeling and data",
       "keyTopics": [
@@ -175,19 +189,6 @@
         "Real-time AML and KYC data infrastructure",
         "AI-enabled cyber threats and threat surface expansion",
         "Agentic data governance platform competition Databricks Snowflake Microsoft"
-      ]
-    },
-    {
-      "date": "2026-06-02",
-      "summary": "Anthropic's confidential IPO filing marks a watershed moment for AI infrastructure, prompting enterprise customers to reconsider vendor lock-in risks and model strategy as public market scrutiny reshapes pricing and reliability conversations. ClickHouse published a competitive benchmark against Databricks and other platforms, though listeners should recognize it as specialized marketing rather than a replacement for governed lakehouse infrastructure, while recent innovations like Databricks' Liquid Clustering and database branching offer concrete selling points for modernization efforts. Across financial services, fintechs are outpacing legacy banks by four times, unpatched software has emerged as the top breach vector according to Verizon's research, and AI is being repositioned as",
-      "keyTopics": [
-        "Anthropic IPO filing reshapes model strategy",
-        "ClickHouse benchmark challenges Databricks cost claims",
-        "Databricks Liquid Clustering and Lakebase database branching",
-        "Fintech revenue growth outpaces legacy banks",
-        "Unpatched software as top bank cybersecurity vector",
-        "AI as core modernization shortcut for banks",
-        "Model-agnostic infrastructure hedge against vendor lock-in"
       ]
     }
   ]
