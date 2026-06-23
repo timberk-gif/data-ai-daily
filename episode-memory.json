@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-23",
+      "summary": "OpenAI is expanding into enterprise security with a new suite of tools called Daybreak and a specialized model for vulnerability detection, signaling a strategic shift beyond model provision into regulated industries like financial services. Meanwhile, regional banks like Flagstar are building proprietary AI systems to navigate regulatory constraints, though the episode argues that model-agnostic, governed infrastructure—rather than custom models—offers a more sustainable approach for most institutions. Competitive pressure from enterprises deploying AI at scale, combined with ongoing tokenization moves in fintech and regulatory uncertainty, is driving demand for stronger data governance and infrastructure capabilities across financial services.",
+      "keyTopics": [
+        "OpenAI Daybreak security suite and GPT-5.5-Cyber launch",
+        "Flagstar Bank StarIQ proprietary generative AI system",
+        "Regional banks AI deployment with regulatory compliance",
+        "Snowflake agentic enterprise and Claude integration",
+        "Google Cloud Open Knowledge Format for BigQuery",
+        "Tokenization of financial assets via blockchain",
+        "Databricks Unity Catalog governance for AI infrastructure"
+      ]
+    },
+    {
       "date": "2026-06-22",
       "summary": "This episode examines the regulatory pressure facing Anthropic and its ripple effects across financial services—particularly for banks and insurers relying on Claude in production systems—while highlighting the urgent need for model-agnostic infrastructure that can swap vendors without disruption. The conversation also surfaces a critical data governance opportunity in the insurance industry, where private credit investments held in offshore reinsurance vehicles lack adequate reporting infrastructure and real-time visibility, creating both regulatory risk and a platform selling opportunity around unified data and stress-testing capabilities. Additional segments cover emerging use cases in elder fraud detection for credit unions and broader signals that AI differentiation is shifting from features to foundational data infrastructure.",
       "keyTopics": [
@@ -175,20 +188,6 @@
         "OpenAI federal frontier AI governance blueprint",
         "Fintech revenue growth four times banking",
         "EU insurance private credit risk reporting"
-      ]
-    },
-    {
-      "date": "2026-06-03",
-      "summary": "This episode covers four major developments in enterprise data and AI. First, Travelers Insurance has deployed an AI-powered claims assistant nationwide in partnership with OpenAI, signaling that AI has moved from pilot phase to production in major financial institutions—a move driven partly by a growing $420 billion global insurance gap from uninsured catastrophes. Second, Microsoft released significant Fabric updates at Build including GPU-accelerated query processing and Fabric IQ, a semantic layer for AI agents, intensifying competition with Snowflake and Databricks over who controls the governance layer between AI agents and enterprise data. Finally, the episode highlights two financial services trends: regional bank consolidation deals (like FNBO acquiring Blue Ridge Banc",
-      "keyTopics": [
-        "Travelers Insurance AI claims assistant production deployment",
-        "Natural disaster insurance gap four hundred twenty billion",
-        "Microsoft Fabric IQ semantic layer for AI agents",
-        "Snowflake CoCo coding agent and interoperable lakehouse",
-        "Regional bank consolidation and data integration urgency",
-        "Real-time AML and KYC data infrastructure",
-        "AI-enabled cyber threats and threat surface expansion",
-        "Agentic data governance platform competition Databricks Snowflake Microsoft"
       ]
     }
   ]
