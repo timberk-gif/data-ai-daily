@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-06-24",
+      "summary": "This episode covers three critical developments for financial services professionals. First, AI-powered fraud is outpacing traditional rule-based detection systems, making real-time data infrastructure and latency a competitive and compliance necessity for banks and fintechs. Second, Anthropic's launch of Claude Tag—an AI integration embedded directly in Slack—represents a strategic move into institutional workflows that raises important questions about data residency, compliance, and vendor lock-in for regulated customers. Third, geopolitical events like the Strait of Hormuz shipping disruptions are creating immediate insurance claims pressure and exposing the need for carriers to rapidly stress-test their catastrophe models against real-world scenarios using current data.",
+      "keyTopics": [
+        "AI fraud detection real-time infrastructure gap",
+        "Anthropic Claude Tag Slack integration compliance risk",
+        "Synthetic data governance and Unity Catalog",
+        "Snowflake vs Databricks federated data governance",
+        "Strait of Hormuz insurance claims and risk modeling",
+        "Microsoft Fabric general availability and Azure consolidation",
+        "Fintech banking partnerships and custodial deposit provisions"
+      ]
+    },
+    {
       "date": "2026-06-23",
       "summary": "OpenAI is expanding into enterprise security with a new suite of tools called Daybreak and a specialized model for vulnerability detection, signaling a strategic shift beyond model provision into regulated industries like financial services. Meanwhile, regional banks like Flagstar are building proprietary AI systems to navigate regulatory constraints, though the episode argues that model-agnostic, governed infrastructure—rather than custom models—offers a more sustainable approach for most institutions. Competitive pressure from enterprises deploying AI at scale, combined with ongoing tokenization moves in fintech and regulatory uncertainty, is driving demand for stronger data governance and infrastructure capabilities across financial services.",
       "keyTopics": [
@@ -174,20 +187,6 @@
         "Bank of America real-time cross-border payments",
         "Anthropic IPO S-1 filing 47B annualized revenue",
         "Enterprise data governance layer vendor lock-in debate"
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "summary": "This episode covers three major industry developments: Databricks released Cross-Engine Attribute-Based Access Control, extending unified data governance across multiple computing engines—a significant advantage for regulated industries managing complex, multi-tool environments. Microsoft continues its post-Build momentum with Graph going GA in Fabric and the launch of Fabric Skills, positioning itself as a comprehensive AI-native data platform, though with less openness than competing approaches. The episode also threads together critical signals for financial services: fintech revenue is growing four times faster than traditional banking, creating structural pressure on legacy institutions; AI-enabled cyber threats are accelerating and becoming a security imperative alongside compliance; and new regulatory frameworks for AI governance are emerging, while data infrastructure gaps (from",
-      "keyTopics": [
-        "Databricks Cross-Engine ABAC governance announcement",
-        "Databricks Genie conversational intelligence enterprise",
-        "Microsoft Fabric Graph GA relationship modeling",
-        "Microsoft Fabric Skills GitHub Copilot integration",
-        "Anthropic AI-enabled cyber threats MITRE ATT&CK",
-        "OpenAI federal frontier AI governance blueprint",
-        "Fintech revenue growth four times banking",
-        "EU insurance private credit risk reporting"
       ]
     }
   ]
