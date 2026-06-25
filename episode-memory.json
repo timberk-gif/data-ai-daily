@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-25",
+      "summary": "Databricks secured the top spot in Gartner's Magic Quadrant for the second consecutive year, positioning itself as the leader in enterprise agentic application deployment with proven execution across data, governance, and compute — a credential that matters in regulated industries where delivery beats promises. An allegation that Alibaba illicitly extracted Claude's capabilities creates immediate vendor risk concerns for customers running Anthropic models in production, making the case for model-agnostic infrastructure and flexible platform architecture a concrete competitive advantage. Separately, escalating geopolitical tensions in the Strait of Hormuz and record-breaking heat waves across Europe are driving urgency around real-time data infrastructure for insurers and banks, exposing the critical",
+      "keyTopics": [
+        "Databricks Gartner Magic Quadrant leader second year",
+        "Alibaba model extraction allegations against Anthropic",
+        "Anthropic vendor risk amid geopolitical and regulatory pressure",
+        "Strait of Hormuz escalation insurance claims exposure",
+        "Real-time data infrastructure for insurance catastrophe modeling",
+        "Regional bank consolidation and data integration complexity",
+        "Snowflake agentic enterprise and millisecond latency features",
+        "OpenAI Broadcom Jalapeño custom AI inference chip"
+      ]
+    },
+    {
       "date": "2026-06-24",
       "summary": "This episode covers three critical developments for financial services professionals. First, AI-powered fraud is outpacing traditional rule-based detection systems, making real-time data infrastructure and latency a competitive and compliance necessity for banks and fintechs. Second, Anthropic's launch of Claude Tag—an AI integration embedded directly in Slack—represents a strategic move into institutional workflows that raises important questions about data residency, compliance, and vendor lock-in for regulated customers. Third, geopolitical events like the Strait of Hormuz shipping disruptions are creating immediate insurance claims pressure and exposing the need for carriers to rapidly stress-test their catastrophe models against real-world scenarios using current data.",
       "keyTopics": [
@@ -174,19 +188,6 @@
         "Hedge funds building catastrophe risk trading desks",
         "Microsoft Fabric Operations Agent general availability",
         "Databricks Lakebase database branching methodology"
-      ]
-    },
-    {
-      "date": "2026-06-05",
-      "summary": "This episode covers four major developments reshaping enterprise AI and data strategy: Databricks' faster Knowledge Assistant search capabilities and Genie's expansion into industry-specific use cases, Microsoft's Operations Agent launch in Fabric and the ongoing battle for governance layer control across cloud platforms, a bipartisan congressional push for federal AI preemption that could upend state-level regulations and create new opportunities for flexible governance infrastructure, and Anthropic's rapidly accelerating IPO trajectory with annualized revenues hitting $47 billion. The underlying theme connects all these stories: enterprise customers need data infrastructure that's adaptable, governed, and not locked into single vendors or cloud platforms as the AI landscape shifts at unprecedented speed.",
-      "keyTopics": [
-        "Databricks Knowledge Assistant parallel search scaling",
-        "Databricks Genie verticalized expansion across industries",
-        "Microsoft Fabric Operations Agent general availability",
-        "House AI preemption bill prohibits state regulation",
-        "Bank of America real-time cross-border payments",
-        "Anthropic IPO S-1 filing 47B annualized revenue",
-        "Enterprise data governance layer vendor lock-in debate"
       ]
     }
   ]
