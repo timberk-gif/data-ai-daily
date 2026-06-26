@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-26",
+      "summary": "This episode explores three major developments reshaping financial services: the White House's directive to slow OpenAI's GPT-5.6 release, highlighting the growing regulatory risk of relying on single AI models, and the broader realization that infrastructure—not models themselves—is the real bottleneck holding back AI adoption in banking and insurance. A fresh attack in the Strait of Hormuz adds urgency to catastrophe modeling and real-time risk assessment, while big banks' successful stress tests and Morgan Stanley's digital asset custody approval underscore the need for institutions to build unified, governed data infrastructure to stay competitive.",
+      "keyTopics": [
+        "White House directs OpenAI to slow GPT-5.6 release",
+        "Government intervention in foundation model deployment escalating",
+        "Model-agnostic AI architecture reduces regulatory risk",
+        "Strait of Hormuz attack impacts marine insurance models",
+        "Real-time data infrastructure as AI bottleneck",
+        "Fed stress test shows banks well-capitalized 2025",
+        "JPMorgan leadership transition Marianne Lake retirement",
+        "Morgan Stanley OCC approval digital asset custody"
+      ]
+    },
+    {
       "date": "2026-06-25",
       "summary": "Databricks secured the top spot in Gartner's Magic Quadrant for the second consecutive year, positioning itself as the leader in enterprise agentic application deployment with proven execution across data, governance, and compute — a credential that matters in regulated industries where delivery beats promises. An allegation that Alibaba illicitly extracted Claude's capabilities creates immediate vendor risk concerns for customers running Anthropic models in production, making the case for model-agnostic infrastructure and flexible platform architecture a concrete competitive advantage. Separately, escalating geopolitical tensions in the Strait of Hormuz and record-breaking heat waves across Europe are driving urgency around real-time data infrastructure for insurers and banks, exposing the critical",
       "keyTopics": [
@@ -174,20 +188,6 @@
         "Credit unions outpacing fintechs on personalized AI",
         "Databricks Data and AI Summit financial services track",
         "Regulatory uncertainty and adaptive data infrastructure strategy"
-      ]
-    },
-    {
-      "date": "2026-06-08",
-      "summary": "Rising AI inference costs are pushing enterprises to reconsider their model dependencies, with industry experts warning that subsidized pricing will likely end as major AI companies move toward public markets—making model-agnostic infrastructure a critical competitive advantage. Meanwhile, federal regulators are tightening oversight of private credit exposure and revamping bank examination frameworks, transforming data infrastructure from a nice-to-have into a compliance necessity for financial institutions. These parallel pressures create immediate selling opportunities around vendor optionality and regulatory-driven data visibility requirements.",
-      "keyTopics": [
-        "AI token pricing increases heading toward IPO",
-        "Anthropic S-1 filing and revenue impact",
-        "Model-agnostic inference layer competitive advantage",
-        "DeepSeek V4 Pro beating GPT-5.5 Pro",
-        "Fed private credit exposure data collection mandate",
-        "Hedge funds building catastrophe risk trading desks",
-        "Microsoft Fabric Operations Agent general availability",
-        "Databricks Lakebase database branching methodology"
       ]
     }
   ]
