@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-06-29",
+      "summary": "Banks are confronting a reckoning with the true production costs of AI systems, driven by soaring usage-based pricing from model providers and inefficient infrastructure with duplicate work and uncached calls—a problem that unified data platforms can directly address. Simultaneously, geopolitical and climate pressures are mounting: the Strait of Hormuz is seeing renewed attacks on shipping while a heat wave spreads across Central and Eastern Europe, forcing insurance carriers to move beyond batch-based catastrophe modeling toward real-time risk assessment. Both trends point to a broader pattern where infrastructure decisions made today will prove either prescient or expensive within eighteen months, while consolidation activity across banking and insurance creates urgent data integration challenges that savvy vendors can position as",
+      "keyTopics": [
+        "Banks confronting AI production costs and vendor pricing",
+        "Unity Catalog platform consolidation for cost governance",
+        "Hormuz shipping disruptions and Central Europe heat waves",
+        "Insurance catastrophe modeling with real-time streaming data",
+        "OpenAI GPT-5.6 Sol preview despite White House directive",
+        "TCS and Anthropic partnership for regulated industries",
+        "Ford rehiring senior engineers after AI quality failures",
+        "Databricks ETL migration framework and video intelligence"
+      ]
+    },
+    {
       "date": "2026-06-26",
       "summary": "This episode explores three major developments reshaping financial services: the White House's directive to slow OpenAI's GPT-5.6 release, highlighting the growing regulatory risk of relying on single AI models, and the broader realization that infrastructure—not models themselves—is the real bottleneck holding back AI adoption in banking and insurance. A fresh attack in the Strait of Hormuz adds urgency to catastrophe modeling and real-time risk assessment, while big banks' successful stress tests and Morgan Stanley's digital asset custody approval underscore the need for institutions to build unified, governed data infrastructure to stay competitive.",
       "keyTopics": [
@@ -175,19 +189,6 @@
         "ClickHouse petabyte-scale real-time analytics QRT",
         "Pagaya suing Klarna AI model IP dispute",
         "Credit union personalized member relationship AI advantage"
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "summary": "OpenAI has filed for its IPO alongside Anthropic, signaling a major shift in how enterprises should think about AI vendor risk and pricing exposure as these foundation model providers move toward public markets and quarterly earnings pressures. The episode explores how this development creates immediate conversations around infrastructure flexibility and model-agnostic data platforms, while also covering Microsoft's new SharePoint integration in Fabric, shifting regulatory dynamics in financial services, and an interesting finding that credit unions may actually have an AI advantage over fintechs due to their deeper relationship data. Together, these stories underscore why well-governed, adaptive data infrastructure is becoming strategically essential for financial services institutions navigating both vendor dependency and regulatory uncertainty.",
-      "keyTopics": [
-        "OpenAI IPO filing and model vendor pricing risk",
-        "Anthropic IPO filing and enterprise AI dependency",
-        "Microsoft Fabric SharePoint OneLake general availability",
-        "Supreme Court SEC disgorgement enforcement ruling",
-        "Credit unions outpacing fintechs on personalized AI",
-        "Databricks Data and AI Summit financial services track",
-        "Regulatory uncertainty and adaptive data infrastructure strategy"
       ]
     }
   ]
