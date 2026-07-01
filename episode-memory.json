@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-01",
+      "summary": "Anthropic launched Claude Sonnet 5, a major capability upgrade in reasoning and coding, just as the Trump administration lifted restrictions on advanced model deployments—a regulatory reset that underscores why enterprises should prioritize model-agnostic infrastructure over vendor lock-in. Meanwhile, Allianz's public warning that climate change is making certain assets uninsurable raises the stakes for real-time risk data infrastructure in financial services, transforming modernization from a nice-to-have into a business survival imperative. The episode also covers Snowflake's new Cortex Sense tool for reasoning over unstructured data, the emerging Open USD stablecoin coalition that will create new governance challenges, and",
+      "keyTopics": [
+        "Anthropic Claude Sonnet 5 release",
+        "Trump administration lifts Anthropic model restrictions",
+        "Claude Code steganographic request marking",
+        "Snowflake Cortex Sense unstructured data reasoning",
+        "Allianz climate change asset uninsurability",
+        "Real-time risk scoring insurance infrastructure",
+        "Open USD stablecoin coalition",
+        "Databricks Lakebase database architecture rethink"
+      ]
+    },
+    {
       "date": "2026-06-30",
       "summary": "This episode covers four interconnected stories shaping enterprise technology decisions: Iran's escalating rhetoric over the Strait of Hormuz is creating real-time data infrastructure demands for insurance carriers managing marine and energy exposure, while simultaneously revealing gaps in batch-processing systems that can't keep pace with intraday geopolitical events. New research shows that companies with the highest AI spending are actually growing their workforces—particularly at entry levels—which reframes the \"AI replaces jobs\" narrative and positions data infrastructure builders as enablers of productivity rather than threats to employment. Anthropic's half-price deal with California state agencies signals a deliberate pivot away from federal oversight at a moment when regulatory posture toward the company has hardened",
       "keyTopics": [
@@ -176,20 +190,6 @@
         "Mercedes-Benz Korea semantic layer NL interface",
         "Google Cloud Lightning Engine Spark performance",
         "Credit unions AI chat competitive advantage"
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "summary": "Databricks announced a new storage ecosystem that lets enterprises govern data in place rather than forcing migration to a centralized lakehouse—a significant shift for regulated industries like banking and fintech that face regulatory constraints and legacy system dependencies. The episode also highlights a critical wrinkle in Anthropic's data retention policy: the new Claude models require 30-day data retention when accessed via API, a compliance concern that makes governed inference layers like Databricks' Unity AI Gateway a practical necessity for financial institutions. Additional coverage includes competitive moves from Snowflake and ClickHouse, the escalating Pagaya-Klarna AI trade secret lawsuit signaling unclear IP boundaries in fintech partnerships, CFPB leadership changes,",
-      "keyTopics": [
-        "Databricks storage ecosystem federated governance announcement",
-        "Anthropic Fable 5 thirty-day data retention requirement",
-        "Pagaya versus Klarna AI trade secret lawsuit",
-        "Snowflake Cortex AI Claude Fable 5 integration",
-        "ClickHouse Claude-powered agentic analytics public beta",
-        "CFPB permanent director nominee Brian Johnson confirmation",
-        "California banks regulatory arbitrage federal charter migration",
-        "Amazon AI infrastructure seventeen point five billion debt"
       ]
     }
   ]
