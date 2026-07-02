@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-02",
+      "summary": "This episode examines the complicated reality of AI's impact on financial services employment, where tech and finance are shedding jobs monthly despite AI adopters actually growing headcount faster than non-adopters—the real differentiator being early investment in data infrastructure. The show covers urgent risk signals in insurance and fintech, from Europe's climate crisis and floating Iranian oil exposure to compliance failures that highlight the need for real-time monitoring capabilities. Finally, it reviews competitive moves across the data platform space, including Databricks' Decision Execution Platform architecture and cost attribution tools, Microsoft Fabric's real-time ingestion updates, and broader competitive positioning on model access and data infrastructure flexibility.",
+      "keyTopics": [
+        "AI labor displacement in financial services",
+        "Databricks Decision Execution Platforms architecture",
+        "Databricks dbt cost attribution with query tags",
+        "Microsoft Fabric real-time Eventstream connectors",
+        "Europe climate crisis and insurance underwriting risk",
+        "Iran oil reserves geopolitical tail-risk scenario",
+        "Venice AI privacy-first model infrastructure funding",
+        "FICO 10T credit model modernization rollout"
+      ]
+    },
+    {
       "date": "2026-07-01",
       "summary": "Anthropic launched Claude Sonnet 5, a major capability upgrade in reasoning and coding, just as the Trump administration lifted restrictions on advanced model deployments—a regulatory reset that underscores why enterprises should prioritize model-agnostic infrastructure over vendor lock-in. Meanwhile, Allianz's public warning that climate change is making certain assets uninsurable raises the stakes for real-time risk data infrastructure in financial services, transforming modernization from a nice-to-have into a business survival imperative. The episode also covers Snowflake's new Cortex Sense tool for reasoning over unstructured data, the emerging Open USD stablecoin coalition that will create new governance challenges, and",
       "keyTopics": [
@@ -176,20 +190,6 @@
         "Google Cloud Open Knowledge Format agentic systems",
         "Geopolitical risk modeling for banks and insurers",
         "KPMG AI hallucination report retraction governance lesson"
-      ]
-    },
-    {
-      "date": "2026-06-12",
-      "summary": "This episode explores three major developments reshaping AI adoption in regulated industries: PNC Bank's CEO publicly committing to building internal AI infrastructure to mitigate vendor costs and dependency risks, signaling a strategic shift that mid-market financial institutions are now watching closely; Anthropic's partnership with DXC Technology to embed Claude directly into banking and airline systems, which creates urgent demand for governed inference layers to ensure compliance; and a real-world case study from ERGO Hestia insurance demonstrating how Databricks' unified platform enables near-real-time pricing model deployment at production scale. The conversation frames these developments as interconnected signals that financial services and insurance firms now face a choice between building owned infrastructure, purchasing through integ",
-      "keyTopics": [
-        "PNC Bank building internal AI factory",
-        "Anthropic Claude integration with DXC Technology",
-        "Claude Fable invisible guardrails compliance concern",
-        "ERGO Hestia real-time pricing engine deployment",
-        "Databricks Unity AI Gateway inference governance",
-        "Mercedes-Benz Korea semantic layer NL interface",
-        "Google Cloud Lightning Engine Spark performance",
-        "Credit unions AI chat competitive advantage"
       ]
     }
   ]
