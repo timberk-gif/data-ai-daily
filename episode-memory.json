@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-06",
+      "summary": "This episode examines two critical trends reshaping enterprise AI: the accelerating deployment of AI agents in financial services—particularly following a $110 million funding round for \"agent-first\" banking—and the mounting concerns about AI costs and security that are fundamentally changing how companies evaluate AI tooling. The conversation spans governance and auditability requirements for production agents, the risks of AI-generated code in regulated industries like banking and payments, competitive platform moves from Snowflake, Microsoft, and Google, and the regulatory pressures intensifying across financial services, connecting these threads to practical infrastructure and compliance imperatives.",
+      "keyTopics": [
+        "AI agents in financial services production",
+        "Agentic AI governance and auditability requirements",
+        "AI-generated code security risks in banking",
+        "Alibaba Claude Code ban and adoption skepticism",
+        "Claude Sonnet 5 integration on Snowflake Cortex",
+        "Microsoft Fabric data agent API and security updates",
+        "AI tooling cost attribution and financial justification",
+        "Banking regulatory instability and compliance anxiety"
+      ]
+    },
+    {
       "date": "2026-07-03",
       "summary": "This episode examines three major developments reshaping enterprise conversations: the US-Iran peace deal and its aftermath in the Strait of Hormuz is closing a geopolitical crisis but exposing permanent gaps in insurance carriers' real-time catastrophe modeling infrastructure, making it the perfect case study for selling streaming data capabilities to risk-exposed customers. Alibaba's public ban on Claude Code over security concerns follows earlier flags around the tool and significantly strengthens the argument for model-agnostic, vendor-independent AI infrastructure in financial services where security posture is non-negotiable. The week's product moves from Databricks, Snowflake, Microsoft Fabric, and BigQuery highlight the competitive race to solve data governance and",
       "keyTopics": [
@@ -176,20 +190,6 @@
         "PwC insurance M&A AI maturity valuation signal",
         "Anthropic enterprise adoption despite government suspension",
         "Model-agnostic governance and Unity AI Gateway strategy"
-      ]
-    },
-    {
-      "date": "2026-06-16",
-      "summary": "This episode breaks down three critical developments for enterprise technology leaders: the government's suspension of Anthropic's Fable 5 and Mythos 5 models, which was triggered by a routine coding prompt rather than a sophisticated attack—raising urgent questions about model governance and infrastructure flexibility for financial services institutions; Snowflake's new AIM migration platform versus Databricks' counter-narrative of federated governance that allows data to stay in place, a distinction that matters significantly for regulated accounts with compliance constraints. The episode also flags emerging FSI signals—insurance industry concerns about real-time risk prediction and data integration, banking leadership transitions at Truist, payments consolidation through the Nuvei-Payoneer",
-      "keyTopics": [
-        "Anthropic Fable 5 government suspension regulatory risk",
-        "Snowflake AIM migration platform competitive response",
-        "Databricks federated governance alternative to migration",
-        "Insurance risk prediction real-time data infrastructure",
-        "TCS Anthropic partnership systems integrator consolidation",
-        "Nuvei Payoneer payments consolidation data integration",
-        "OpenAI Partner Network enterprise AI deployment",
-        "Model vendor risk governance and contingency planning"
       ]
     }
   ]
