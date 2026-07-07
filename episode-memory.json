@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-07",
+      "summary": "Databricks released several significant product updates overnight, including Automatic Upgrades for Unity Catalog managed tables that improve performance in the background, Vibe Data Modeling to accelerate the Silver layer of data pipelines using natural language, and an internal case study demonstrating agentic security workflows at scale. The UK's Financial Conduct Authority commissioned a review calling for direct regulation of large language models like ChatGPT and Claude in financial services, signaling that institutions dependent on single model vendors face emerging regulatory risk and should prioritize vendor-independent, model-agnostic infrastructure instead.",
+      "keyTopics": [
+        "Databricks Automatic Upgrades for Unity Catalog tables",
+        "Databricks Vibe Data Modeling natural language Silver layer",
+        "Databricks agentic security alert triage internal deployment",
+        "Databricks Omnigent contextual policies for AI agents",
+        "UK FCA review calls for LLM regulation",
+        "AI agents executing autonomous B2B payment decisions",
+        "Tropical Storm Arthur insurance carrier catastrophe modeling",
+        "Model-agnostic infrastructure reduces regulatory vendor lock-in risk"
+      ]
+    },
+    {
       "date": "2026-07-06",
       "summary": "This episode examines two critical trends reshaping enterprise AI: the accelerating deployment of AI agents in financial services—particularly following a $110 million funding round for \"agent-first\" banking—and the mounting concerns about AI costs and security that are fundamentally changing how companies evaluate AI tooling. The conversation spans governance and auditability requirements for production agents, the risks of AI-generated code in regulated industries like banking and payments, competitive platform moves from Snowflake, Microsoft, and Google, and the regulatory pressures intensifying across financial services, connecting these threads to practical infrastructure and compliance imperatives.",
       "keyTopics": [
@@ -176,20 +190,6 @@
         "Credit unions AI explainability and trust governance",
         "Federal Reserve Kevin Warsh forward guidance policy",
         "Sovereign AI capabilities geopolitical risk mitigation"
-      ]
-    },
-    {
-      "date": "2026-06-17",
-      "summary": "Databricks announced several major product launches aimed at the agentic AI era, including OpenSharing—an evolution of Delta Sharing that lets AI agents access and reason over data across organizations without moving it—plus Apps on the Databricks Marketplace and Governed Vibe Coding for enterprise control. Microsoft and Databricks deepened their partnership by enabling Azure Databricks to store Unity Catalog tables directly in OneLake, removing a major adoption barrier for Azure-embedded financial institutions while maintaining Databricks' governance layer. On the regulatory front, a Democratic congressman publicly warned that AI could trigger bank runs in seconds, while PwC data shows AI maturity is now a valuation factor in insurance M&A",
-      "keyTopics": [
-        "Databricks OpenSharing for agentic AI data access",
-        "Databricks Apps on Marketplace and Governed Vibe Coding",
-        "Databricks Agentic Customer Data Platform marketing tech",
-        "Microsoft Fabric OneLake integration with Unity Catalog",
-        "Congressional warning AI-driven bank runs seconds",
-        "PwC insurance M&A AI maturity valuation signal",
-        "Anthropic enterprise adoption despite government suspension",
-        "Model-agnostic governance and Unity AI Gateway strategy"
       ]
     }
   ]
