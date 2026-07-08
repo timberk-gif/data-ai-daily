@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-08",
+      "summary": "The financial services industry is undergoing rapid consolidation as banks acquire AI-driven fintechs, fintech companies pursue banking licenses, and private equity firms rebuild their risk models with new data capabilities — all of which hinge on underlying data infrastructure decisions that will shape business strategy for years. Key technical developments include Databricks' natural language interfaces and contextual policy governance for AI agents, competitive moves from Snowflake and Google in cost attribution and analytics, and emerging infrastructure challenges around stablecoins and on-chain transaction data at unprecedented scale. Across these shifts, a critical tension is emerging: while some institutions like MUFG are betting heavily on single-vendor AI platforms, regulators are beginning to scrutinize",
+      "keyTopics": [
+        "Databricks Genie security logs conversational analysis",
+        "Databricks Omnigent contextual policies AI agent governance",
+        "Databricks dbt query tag cost attribution",
+        "BigQuery Conversational Analytics general availability",
+        "Financial services consolidation and AI infrastructure",
+        "Klarna industrial loan company charter application",
+        "Open USD stablecoin standard 140 company signatures",
+        "FCA LLM regulation and model-agnostic infrastructure"
+      ]
+    },
+    {
       "date": "2026-07-07",
       "summary": "Databricks released several significant product updates overnight, including Automatic Upgrades for Unity Catalog managed tables that improve performance in the background, Vibe Data Modeling to accelerate the Silver layer of data pipelines using natural language, and an internal case study demonstrating agentic security workflows at scale. The UK's Financial Conduct Authority commissioned a review calling for direct regulation of large language models like ChatGPT and Claude in financial services, signaling that institutions dependent on single model vendors face emerging regulatory risk and should prioritize vendor-independent, model-agnostic infrastructure instead.",
       "keyTopics": [
@@ -177,19 +191,6 @@
         "Geopolitical risk modeling and catastrophe insurance stress testing",
         "Baseten inference infrastructure fundraising and valuation growth",
         "OpenAI IPO positioning and AI policy leadership hiring"
-      ]
-    },
-    {
-      "date": "2026-06-18",
-      "summary": "This episode examines the gap between AI adoption claims and actual deployment in financial services, revealing that only 30% of firms use AI for customer retention despite widespread investment. The discussion centers on how Databricks and NVIDIA are positioning an integrated full-stack approach for enterprise agentic AI with governance and security built in, while Microsoft Fabric and Snowflake pursue competing strategies in this emerging space. Key signals for financial institutions include new Fed leadership that may increase demand for scenario modeling, persistent untapped opportunities in AI-driven customer retention, and growing concerns about geopolitical risk and vendor lock-in that make federated, governed AI infrastructure a business continuity priority.",
-      "keyTopics": [
-        "Databricks NVIDIA agentic AI full-stack partnership",
-        "Financial services AI adoption gap customer retention",
-        "Databricks Unity Catalog governance and federated data",
-        "Microsoft Fabric ServiceNow zero-copy OneLake integration",
-        "Credit unions AI explainability and trust governance",
-        "Federal Reserve Kevin Warsh forward guidance policy",
-        "Sovereign AI capabilities geopolitical risk mitigation"
       ]
     }
   ]
