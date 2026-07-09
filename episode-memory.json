@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-09",
+      "summary": "This episode covers four major developments reshaping enterprise data and AI strategy: escalating geopolitical tensions in the Strait of Hormuz are exposing critical gaps in real-time catastrophe modeling at insurance carriers, while an 85% increase in AI budgets across financial services signals accelerating enterprise adoption. Databricks' benchmark study on coding agents reveals that standard evaluation metrics don't transfer to real-world codebases—a governance concern for regulated institutions—while Snowflake advances its competitive position with ML Jobs in Data Clean Rooms and new AI cost management tools. The overarching theme is that increased AI spending without proper data infrastructure and governance creates risk; the winning strategy involves building model-agnostic systems that",
+      "keyTopics": [
+        "Strait of Hormuz shipping disruption escalation",
+        "Insurance real-time catastrophe modeling infrastructure gap",
+        "Financial services AI budget increase 85 percent",
+        "Databricks coding agent benchmark integrity analysis",
+        "Snowflake ML Jobs collaborative data clean rooms",
+        "Snowflake AI FinOps cost attribution capabilities",
+        "BigQuery Conversational Analytics general availability",
+        "Coding AI benchmark gaming vs real-world evaluation"
+      ]
+    },
+    {
       "date": "2026-07-08",
       "summary": "The financial services industry is undergoing rapid consolidation as banks acquire AI-driven fintechs, fintech companies pursue banking licenses, and private equity firms rebuild their risk models with new data capabilities — all of which hinge on underlying data infrastructure decisions that will shape business strategy for years. Key technical developments include Databricks' natural language interfaces and contextual policy governance for AI agents, competitive moves from Snowflake and Google in cost attribution and analytics, and emerging infrastructure challenges around stablecoins and on-chain transaction data at unprecedented scale. Across these shifts, a critical tension is emerging: while some institutions like MUFG are betting heavily on single-vendor AI platforms, regulators are beginning to scrutinize",
       "keyTopics": [
@@ -178,19 +192,6 @@
         "Real-time elder fraud detection AI",
         "Enterprise AI governance and cost controls",
         "John Jumper joins Anthropic from DeepMind"
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "summary": "This episode digs into three major developments reshaping enterprise AI and financial services. First, Anthropic is positioning autonomous agents as the future of banking, shifting from \"prompting\" to \"delegating,\" which opens critical questions about governance and regulated deployment that create opportunities for data infrastructure vendors. Second, Snowflake is making a strategic play into governed agentic AI with Claude integration, directly competing with Databricks, though Databricks' federated data access approach offers a real advantage for banks with complex hybrid environments that can't afford data migration. Finally, geopolitical tensions around the Middle East and emerging risk categories like orbital AI data centers are creating urgent demand among insurers and banks for real-time risk modeling and data",
-      "keyTopics": [
-        "Anthropic banking summit agentic AI delegation pitch",
-        "Snowflake Cortex AI and Claude Fable 5 integration",
-        "Databricks federated data access versus Snowflake centralized governance",
-        "Real-time fraud detection and elder scam prevention banking",
-        "Geopolitical risk modeling and catastrophe insurance stress testing",
-        "Baseten inference infrastructure fundraising and valuation growth",
-        "OpenAI IPO positioning and AI policy leadership hiring"
       ]
     }
   ]
