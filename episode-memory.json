@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-10",
+      "summary": "This episode covers the critical trust gap slowing AI adoption in financial services, where three-quarters of firms report identity inconsistencies in their digital workflows—a data infrastructure problem rather than a model problem that governance platforms like Unity Catalog must solve before autonomous AI can safely move money. It also digs into OpenAI's aggressive push toward agentic AI with GPT-5.6 and ChatGPT Work, Snowflake's rapid integration of both leading AI models to signal model-agnosticism, and how Typhoon Bavi bearing down on Japan and China right now is a live test of whether insurance carriers have built the real-time catastrophe modeling infrastructure needed to assess exposure during major weather events",
+      "keyTopics": [
+        "AI trust in financial services data infrastructure",
+        "OpenAI GPT-5.6 model release and ChatGPT Work",
+        "Fidji Simo OpenAI leadership departure",
+        "Snowflake GPT-5.6 integration Cortex AI",
+        "Databricks Unity Catalog governance competitive positioning",
+        "Typhoon Bavi catastrophe modeling real-time risk",
+        "Databricks Azure Synapse migration guide",
+        "Financial services identity inconsistencies compliance risk"
+      ]
+    },
+    {
       "date": "2026-07-09",
       "summary": "This episode covers four major developments reshaping enterprise data and AI strategy: escalating geopolitical tensions in the Strait of Hormuz are exposing critical gaps in real-time catastrophe modeling at insurance carriers, while an 85% increase in AI budgets across financial services signals accelerating enterprise adoption. Databricks' benchmark study on coding agents reveals that standard evaluation metrics don't transfer to real-world codebases—a governance concern for regulated institutions—while Snowflake advances its competitive position with ML Jobs in Data Clean Rooms and new AI cost management tools. The overarching theme is that increased AI spending without proper data infrastructure and governance creates risk; the winning strategy involves building model-agnostic systems that",
       "keyTopics": [
@@ -178,20 +192,6 @@
         "Google Cloud Open Knowledge Format for BigQuery",
         "Tokenization of financial assets via blockchain",
         "Databricks Unity Catalog governance for AI infrastructure"
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "summary": "This episode examines the regulatory pressure facing Anthropic and its ripple effects across financial services—particularly for banks and insurers relying on Claude in production systems—while highlighting the urgent need for model-agnostic infrastructure that can swap vendors without disruption. The conversation also surfaces a critical data governance opportunity in the insurance industry, where private credit investments held in offshore reinsurance vehicles lack adequate reporting infrastructure and real-time visibility, creating both regulatory risk and a platform selling opportunity around unified data and stress-testing capabilities. Additional segments cover emerging use cases in elder fraud detection for credit unions and broader signals that AI differentiation is shifting from features to foundational data infrastructure.",
-      "keyTopics": [
-        "Trump administration pressure on Anthropic",
-        "Model vendor risk in financial services",
-        "Databricks Unity Catalog model-agnostic routing",
-        "Snowflake Cortex agentic AI architecture",
-        "Private credit opacity in insurance regulation",
-        "Real-time elder fraud detection AI",
-        "Enterprise AI governance and cost controls",
-        "John Jumper joins Anthropic from DeepMind"
       ]
     }
   ]
