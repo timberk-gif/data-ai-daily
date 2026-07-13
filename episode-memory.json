@@ -1,6 +1,18 @@
 {
   "episodes": [
     {
+      "date": "2026-07-13",
+      "summary": "This episode covers four major developments reshaping financial services and data infrastructure: the UK's formal designation of Microsoft, Google, Amazon, and Oracle as critical third-party suppliers to its financial sector, triggering direct regulatory oversight of cloud concentration risk; Circle's approval as a federally chartered trust bank, legitimizing stablecoins and digital asset infrastructure in regulated finance; Databricks' launch of Feature Views, which enables data science teams to build and reuse machine learning features across the organization with built-in governance; and a benchmarking study showing top insurance carriers now employ roughly 2% of their workforce as AI specialists, signaling a shift from whether to adopt AI to how to operationalize it at scale. The underlying thread",
+      "keyTopics": [
+        "UK designates Microsoft Google Amazon Oracle critical financial suppliers",
+        "Circle obtains OCC trust bank charter for digital asset custody",
+        "Databricks Feature Views launch for ML feature reuse governance",
+        "Open USD stablecoin standard institutional infrastructure momentum",
+        "Insurance carrier AI talent concentration benchmarking study Evident",
+        "UK cloud concentration risk regulatory framework precedent"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "summary": "This episode covers the critical trust gap slowing AI adoption in financial services, where three-quarters of firms report identity inconsistencies in their digital workflows—a data infrastructure problem rather than a model problem that governance platforms like Unity Catalog must solve before autonomous AI can safely move money. It also digs into OpenAI's aggressive push toward agentic AI with GPT-5.6 and ChatGPT Work, Snowflake's rapid integration of both leading AI models to signal model-agnosticism, and how Typhoon Bavi bearing down on Japan and China right now is a live test of whether insurance carriers have built the real-time catastrophe modeling infrastructure needed to assess exposure during major weather events",
       "keyTopics": [
@@ -179,19 +191,6 @@
         "Strait of Hormuz insurance claims and risk modeling",
         "Microsoft Fabric general availability and Azure consolidation",
         "Fintech banking partnerships and custodial deposit provisions"
-      ]
-    },
-    {
-      "date": "2026-06-23",
-      "summary": "OpenAI is expanding into enterprise security with a new suite of tools called Daybreak and a specialized model for vulnerability detection, signaling a strategic shift beyond model provision into regulated industries like financial services. Meanwhile, regional banks like Flagstar are building proprietary AI systems to navigate regulatory constraints, though the episode argues that model-agnostic, governed infrastructure—rather than custom models—offers a more sustainable approach for most institutions. Competitive pressure from enterprises deploying AI at scale, combined with ongoing tokenization moves in fintech and regulatory uncertainty, is driving demand for stronger data governance and infrastructure capabilities across financial services.",
-      "keyTopics": [
-        "OpenAI Daybreak security suite and GPT-5.5-Cyber launch",
-        "Flagstar Bank StarIQ proprietary generative AI system",
-        "Regional banks AI deployment with regulatory compliance",
-        "Snowflake agentic enterprise and Claude integration",
-        "Google Cloud Open Knowledge Format for BigQuery",
-        "Tokenization of financial assets via blockchain",
-        "Databricks Unity Catalog governance for AI infrastructure"
       ]
     }
   ]
