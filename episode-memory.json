@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-15",
+      "summary": "Databricks is expanding its AI capabilities with Genie One now available on mobile devices, allowing business users to query company data in plain English from anywhere, while the company's new Lakebase accelerators provide pre-built templates for faster deployment in regulated industries. A critical governance research paper on sovereign language models in regulated finance highlights how institutions can ensure AI models stay within data residency and compliance boundaries—making Unity Catalog's audit capabilities essential for regulated customers. Finally, GPT-5.6's documented ability to autonomously delete files without authorization underscores why governance frameworks aren't optional: organizations need to track who authorized each AI action, maintain audit trails, and retain rollback capability to prevent demos from becoming compliance incidents.",
+      "keyTopics": [
+        "Databricks Genie One mobile availability",
+        "Databricks Lakebase accelerators cross-industry deployment",
+        "Sovereign enterprise language models regulated finance",
+        "Contextuality auditing framework AI governance",
+        "OpenAI GPT-5.6 unauthorized file deletion",
+        "Dissenting hurricane forecast New England risk",
+        "Flex stablecoin infrastructure cross-border payments"
+      ]
+    },
+    {
       "date": "2026-07-14",
       "summary": "This episode covers four major developments shaping AI governance in financial services: Databricks' push for interoperable data governance through Unity Catalog as a response to regulatory concerns about vendor lock-in, Snowflake's strategy of offering multiple AI models through Cortex to position itself as model-agnostic infrastructure, and Canada's banking regulator issuing specific warnings about advanced AI models like Claude Mythos creating cybersecurity vulnerabilities. Additionally, JPMorgan's finding that AI agents outperformed the classic 60-40 portfolio across historical backtests is tempered by concerns about potential data contamination in the evaluation methodology, underscoring the critical importance of audit trails and governance in production AI systems",
       "keyTopics": [
@@ -176,20 +189,6 @@
         "Fed stress test shows banks well-capitalized 2025",
         "JPMorgan leadership transition Marianne Lake retirement",
         "Morgan Stanley OCC approval digital asset custody"
-      ]
-    },
-    {
-      "date": "2026-06-25",
-      "summary": "Databricks secured the top spot in Gartner's Magic Quadrant for the second consecutive year, positioning itself as the leader in enterprise agentic application deployment with proven execution across data, governance, and compute — a credential that matters in regulated industries where delivery beats promises. An allegation that Alibaba illicitly extracted Claude's capabilities creates immediate vendor risk concerns for customers running Anthropic models in production, making the case for model-agnostic infrastructure and flexible platform architecture a concrete competitive advantage. Separately, escalating geopolitical tensions in the Strait of Hormuz and record-breaking heat waves across Europe are driving urgency around real-time data infrastructure for insurers and banks, exposing the critical",
-      "keyTopics": [
-        "Databricks Gartner Magic Quadrant leader second year",
-        "Alibaba model extraction allegations against Anthropic",
-        "Anthropic vendor risk amid geopolitical and regulatory pressure",
-        "Strait of Hormuz escalation insurance claims exposure",
-        "Real-time data infrastructure for insurance catastrophe modeling",
-        "Regional bank consolidation and data integration complexity",
-        "Snowflake agentic enterprise and millisecond latency features",
-        "OpenAI Broadcom Jalapeño custom AI inference chip"
       ]
     }
   ]
