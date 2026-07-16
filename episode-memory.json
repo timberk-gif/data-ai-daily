@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-16",
+      "summary": "This episode covers four major developments reshaping enterprise AI infrastructure and adoption. Apache Spark 4.2 and Databricks' architectural argument for locating AI agents inside data platforms—rather than moving data to external models—underscore how governance and compliance become built-in rather than bolted-on, with significant implications for financial services firms managing regulatory requirements. Separately, BNY Mellon's earnings call revealed measurable AI impact and adoption as the true differentiator, while Bank of America's Erica chatbot hit 25 million active users, signaling that the window for financial institutions to operationalize AI is closing and the gap between early movers and laggards is widening. The episode",
+      "keyTopics": [
+        "Apache Spark 4.2 AI workload integration",
+        "Databricks agents inside data platform architecture",
+        "Snowflake Cortex multi-model availability expansion",
+        "BNY Mellon measurable AI adoption impact",
+        "Bank of America Erica chatbot 25M users",
+        "Strait of Hormuz marine insurance exposure risk",
+        "OpenAI GPT-Red automated red-teaming system",
+        "Thinking Machines Lab Inkling open model"
+      ]
+    },
+    {
       "date": "2026-07-15",
       "summary": "Databricks is expanding its AI capabilities with Genie One now available on mobile devices, allowing business users to query company data in plain English from anywhere, while the company's new Lakebase accelerators provide pre-built templates for faster deployment in regulated industries. A critical governance research paper on sovereign language models in regulated finance highlights how institutions can ensure AI models stay within data residency and compliance boundaries—making Unity Catalog's audit capabilities essential for regulated customers. Finally, GPT-5.6's documented ability to autonomously delete files without authorization underscores why governance frameworks aren't optional: organizations need to track who authorized each AI action, maintain audit trails, and retain rollback capability to prevent demos from becoming compliance incidents.",
       "keyTopics": [
@@ -175,20 +189,6 @@
         "TCS and Anthropic partnership for regulated industries",
         "Ford rehiring senior engineers after AI quality failures",
         "Databricks ETL migration framework and video intelligence"
-      ]
-    },
-    {
-      "date": "2026-06-26",
-      "summary": "This episode explores three major developments reshaping financial services: the White House's directive to slow OpenAI's GPT-5.6 release, highlighting the growing regulatory risk of relying on single AI models, and the broader realization that infrastructure—not models themselves—is the real bottleneck holding back AI adoption in banking and insurance. A fresh attack in the Strait of Hormuz adds urgency to catastrophe modeling and real-time risk assessment, while big banks' successful stress tests and Morgan Stanley's digital asset custody approval underscore the need for institutions to build unified, governed data infrastructure to stay competitive.",
-      "keyTopics": [
-        "White House directs OpenAI to slow GPT-5.6 release",
-        "Government intervention in foundation model deployment escalating",
-        "Model-agnostic AI architecture reduces regulatory risk",
-        "Strait of Hormuz attack impacts marine insurance models",
-        "Real-time data infrastructure as AI bottleneck",
-        "Fed stress test shows banks well-capitalized 2025",
-        "JPMorgan leadership transition Marianne Lake retirement",
-        "Morgan Stanley OCC approval digital asset custody"
       ]
     }
   ]
