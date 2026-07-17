@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-17",
+      "summary": "This episode covers four critical developments reshaping enterprise AI strategy: a landmark autonomous ransomware attack that operated without human intervention, prompting the White House to launch the Gold Eagle clearinghouse for AI threat intelligence coordination; Databricks' argument that enterprise AI projects are failing due to weak data foundations rather than model limitations, along with new real-time payment processing use cases and a Context Engineer certification for agent deployment; and sobering research from VentureBeat showing that over half of enterprises have already experienced AI agent security incidents, with widespread credential-sharing and evaluation gaps that create compliance risks. The episode also highlights Wells Fargo's internal AI advisor tool and credit union investments in AI-powered lending as concrete examples of where governed data",
+      "keyTopics": [
+        "Autonomous AI ransomware attack confirmed by Sysdig",
+        "White House Gold Eagle AI cybersecurity clearinghouse",
+        "Databricks data foundation argument for enterprise AI",
+        "Databricks Context Engineer certification for AI agents",
+        "VentureBeat enterprise agent security incident research",
+        "Wells Fargo AI advisor tool for financial advisers",
+        "Lumin Digital seventy million dollar credit union funding",
+        "Snowflake Claude Sonnet 5 Cortex AI integration"
+      ]
+    },
+    {
       "date": "2026-07-16",
       "summary": "This episode covers four major developments reshaping enterprise AI infrastructure and adoption. Apache Spark 4.2 and Databricks' architectural argument for locating AI agents inside data platforms—rather than moving data to external models—underscore how governance and compliance become built-in rather than bolted-on, with significant implications for financial services firms managing regulatory requirements. Separately, BNY Mellon's earnings call revealed measurable AI impact and adoption as the true differentiator, while Bank of America's Erica chatbot hit 25 million active users, signaling that the window for financial institutions to operationalize AI is closing and the gap between early movers and laggards is widening. The episode",
       "keyTopics": [
@@ -175,20 +189,6 @@
         "Morgan Stanley digital asset trust OCC approval",
         "Unity Catalog cross-workspace governance competitive advantage",
         "Model-agnostic AI architecture as vendor risk mitigation"
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "summary": "Banks are confronting a reckoning with the true production costs of AI systems, driven by soaring usage-based pricing from model providers and inefficient infrastructure with duplicate work and uncached calls—a problem that unified data platforms can directly address. Simultaneously, geopolitical and climate pressures are mounting: the Strait of Hormuz is seeing renewed attacks on shipping while a heat wave spreads across Central and Eastern Europe, forcing insurance carriers to move beyond batch-based catastrophe modeling toward real-time risk assessment. Both trends point to a broader pattern where infrastructure decisions made today will prove either prescient or expensive within eighteen months, while consolidation activity across banking and insurance creates urgent data integration challenges that savvy vendors can position as",
-      "keyTopics": [
-        "Banks confronting AI production costs and vendor pricing",
-        "Unity Catalog platform consolidation for cost governance",
-        "Hormuz shipping disruptions and Central Europe heat waves",
-        "Insurance catastrophe modeling with real-time streaming data",
-        "OpenAI GPT-5.6 Sol preview despite White House directive",
-        "TCS and Anthropic partnership for regulated industries",
-        "Ford rehiring senior engineers after AI quality failures",
-        "Databricks ETL migration framework and video intelligence"
       ]
     }
   ]
