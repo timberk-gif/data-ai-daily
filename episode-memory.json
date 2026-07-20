@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-20",
+      "summary": "The banking sector is rapidly moving from AI-assisted to fully autonomous decision-making in core lending workflows—including document review, credit scoring, and borrower communication—creating immediate opportunities for financial services conversations around \"decision intelligence\" and faster, data-driven operations. Databricks released Spark Muse 1.1 through Unity AI Gateway, signaling a shift toward governance-first platforms where models can be swapped without rebuilding compliance infrastructure, a critical advantage for regulated industries. Meanwhile, escalating tensions in the Strait of Hormuz are forcing marine insurers and specialty risk carriers to rapidly reprice coverage in real time, exposing the gap between static actuarial models and dynamic, data-driven risk platforms.",
+      "keyTopics": [
+        "Databricks Meta Spark Muse Unity AI Gateway",
+        "Banking AI autonomous decision intelligence lending workflows",
+        "AI agents mortgage document review credit scoring",
+        "Fifth Third Comerica merger integration AI supervision",
+        "Strait of Hormuz marine insurance risk escalation",
+        "Enterprise AI infrastructure spending cost measurement gap",
+        "OpenAI CFO AI scorecard return on compute",
+        "Snowflake Cortex AI model agnostic positioning"
+      ]
+    },
+    {
       "date": "2026-07-17",
       "summary": "This episode covers four critical developments reshaping enterprise AI strategy: a landmark autonomous ransomware attack that operated without human intervention, prompting the White House to launch the Gold Eagle clearinghouse for AI threat intelligence coordination; Databricks' argument that enterprise AI projects are failing due to weak data foundations rather than model limitations, along with new real-time payment processing use cases and a Context Engineer certification for agent deployment; and sobering research from VentureBeat showing that over half of enterprises have already experienced AI agent security incidents, with widespread credential-sharing and evaluation gaps that create compliance risks. The episode also highlights Wells Fargo's internal AI advisor tool and credit union investments in AI-powered lending as concrete examples of where governed data",
       "keyTopics": [
@@ -175,20 +189,6 @@
         "Real-time risk scoring insurance infrastructure",
         "Open USD stablecoin coalition",
         "Databricks Lakebase database architecture rethink"
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "summary": "This episode covers four interconnected stories shaping enterprise technology decisions: Iran's escalating rhetoric over the Strait of Hormuz is creating real-time data infrastructure demands for insurance carriers managing marine and energy exposure, while simultaneously revealing gaps in batch-processing systems that can't keep pace with intraday geopolitical events. New research shows that companies with the highest AI spending are actually growing their workforces—particularly at entry levels—which reframes the \"AI replaces jobs\" narrative and positions data infrastructure builders as enablers of productivity rather than threats to employment. Anthropic's half-price deal with California state agencies signals a deliberate pivot away from federal oversight at a moment when regulatory posture toward the company has hardened",
-      "keyTopics": [
-        "Iran Strait of Hormuz maritime control escalation",
-        "Real-time data infrastructure for insurance catastrophe models",
-        "High-intensity AI adopters increasing headcount faster",
-        "Anthropic California state deal versus federal tension",
-        "Google BigQuery Graph fraud detection for fintech",
-        "Morgan Stanley digital asset trust OCC approval",
-        "Unity Catalog cross-workspace governance competitive advantage",
-        "Model-agnostic AI architecture as vendor risk mitigation"
       ]
     }
   ]
