@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-21",
+      "summary": "Major U.S. banks are accelerating AI adoption at the operational level rather than in isolated experiments, shifting the competitive pressure on mid-tier and regional financial institutions to move quickly on decision intelligence capabilities. Geopolitical tensions in the Red Sea and Persian Gulf are creating urgent repricing cycles in marine and aviation insurance markets, exposing a critical gap between static actuarial models and the real-time data infrastructure needed to respond to rapid changes. Meanwhile, new engineering patterns from Databricks on governance and lineage, combined with OpenAI's warnings about extended-horizon AI failures and Anthropic's landmark copyright settlement, are establishing data transparency and training data accountability as non-negotiable requirements for enterprise AI deployments in regulated industries",
+      "keyTopics": [
+        "Major U.S. banks AI adoption operational scale",
+        "Decision intelligence in banking and lending workflows",
+        "Red Sea geopolitical risk insurance repricing",
+        "Airline aviation insurance coverage Gulf tensions",
+        "Databricks Lakebase CI/CD branching pattern",
+        "Document classification at scale Databricks",
+        "OpenAI long-horizon AI model safety risks",
+        "Anthropic copyright settlement AI training data liability"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "summary": "The banking sector is rapidly moving from AI-assisted to fully autonomous decision-making in core lending workflows—including document review, credit scoring, and borrower communication—creating immediate opportunities for financial services conversations around \"decision intelligence\" and faster, data-driven operations. Databricks released Spark Muse 1.1 through Unity AI Gateway, signaling a shift toward governance-first platforms where models can be swapped without rebuilding compliance infrastructure, a critical advantage for regulated industries. Meanwhile, escalating tensions in the Strait of Hormuz are forcing marine insurers and specialty risk carriers to rapidly reprice coverage in real time, exposing the gap between static actuarial models and dynamic, data-driven risk platforms.",
       "keyTopics": [
@@ -175,20 +189,6 @@
         "Iran oil reserves geopolitical tail-risk scenario",
         "Venice AI privacy-first model infrastructure funding",
         "FICO 10T credit model modernization rollout"
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "summary": "Anthropic launched Claude Sonnet 5, a major capability upgrade in reasoning and coding, just as the Trump administration lifted restrictions on advanced model deployments—a regulatory reset that underscores why enterprises should prioritize model-agnostic infrastructure over vendor lock-in. Meanwhile, Allianz's public warning that climate change is making certain assets uninsurable raises the stakes for real-time risk data infrastructure in financial services, transforming modernization from a nice-to-have into a business survival imperative. The episode also covers Snowflake's new Cortex Sense tool for reasoning over unstructured data, the emerging Open USD stablecoin coalition that will create new governance challenges, and",
-      "keyTopics": [
-        "Anthropic Claude Sonnet 5 release",
-        "Trump administration lifts Anthropic model restrictions",
-        "Claude Code steganographic request marking",
-        "Snowflake Cortex Sense unstructured data reasoning",
-        "Allianz climate change asset uninsurability",
-        "Real-time risk scoring insurance infrastructure",
-        "Open USD stablecoin coalition",
-        "Databricks Lakebase database architecture rethink"
       ]
     }
   ]
