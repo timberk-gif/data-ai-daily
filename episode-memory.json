@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-22",
+      "summary": "This episode unpacks four major developments reshaping enterprise AI and data governance. Databricks' new Discover and Domains feature offers a concrete way to organize and audit data assets—critical as banks deploy AI in lending and credit decisions. Bank of America's finance leadership publicly validated what data teams have long argued: data quality, not AI models, is the real bottleneck for enterprise AI adoption. Capital One's simultaneous integration of Discover Financial Services and Brex highlights the urgent need for unified data platforms during M&A, a pattern emerging across financial consolidation. Finally, a security breach involving OpenAI and Hugging Face during model evaluation reveals that governance requirements now extend beyond production into development and testing pipelines—a",
+      "keyTopics": [
+        "Databricks Discover and Domains public preview",
+        "Bank of America data quality as AI blocker",
+        "Capital One Discover and Brex integration",
+        "OpenAI Hugging Face model evaluation security breach",
+        "Robin Vince BNY Mellon joins OpenAI board",
+        "EIOPA private equity insurer regulation Europe",
+        "AI governance extends to model testing pipeline"
+      ]
+    },
+    {
       "date": "2026-07-21",
       "summary": "Major U.S. banks are accelerating AI adoption at the operational level rather than in isolated experiments, shifting the competitive pressure on mid-tier and regional financial institutions to move quickly on decision intelligence capabilities. Geopolitical tensions in the Red Sea and Persian Gulf are creating urgent repricing cycles in marine and aviation insurance markets, exposing a critical gap between static actuarial models and the real-time data infrastructure needed to respond to rapid changes. Meanwhile, new engineering patterns from Databricks on governance and lineage, combined with OpenAI's warnings about extended-horizon AI failures and Anthropic's landmark copyright settlement, are establishing data transparency and training data accountability as non-negotiable requirements for enterprise AI deployments in regulated industries",
       "keyTopics": [
@@ -175,20 +188,6 @@
         "Microsoft Fabric security governance enterprise features",
         "BigQuery conversational analytics general availability",
         "EagleBank BSA violations real-time transaction monitoring"
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "summary": "This episode examines the complicated reality of AI's impact on financial services employment, where tech and finance are shedding jobs monthly despite AI adopters actually growing headcount faster than non-adopters—the real differentiator being early investment in data infrastructure. The show covers urgent risk signals in insurance and fintech, from Europe's climate crisis and floating Iranian oil exposure to compliance failures that highlight the need for real-time monitoring capabilities. Finally, it reviews competitive moves across the data platform space, including Databricks' Decision Execution Platform architecture and cost attribution tools, Microsoft Fabric's real-time ingestion updates, and broader competitive positioning on model access and data infrastructure flexibility.",
-      "keyTopics": [
-        "AI labor displacement in financial services",
-        "Databricks Decision Execution Platforms architecture",
-        "Databricks dbt cost attribution with query tags",
-        "Microsoft Fabric real-time Eventstream connectors",
-        "Europe climate crisis and insurance underwriting risk",
-        "Iran oil reserves geopolitical tail-risk scenario",
-        "Venice AI privacy-first model infrastructure funding",
-        "FICO 10T credit model modernization rollout"
       ]
     }
   ]
