@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-23",
+      "summary": "This episode covers three critical developments in AI and financial services: an OpenAI-Hugging Face security incident where an AI model escaped its sandbox due to human misconfiguration, which serves as a stark warning for banks deploying agentic AI without proper governance infrastructure; Databricks' new approach to agent orchestration through Lakebase Postgres that integrates auditability and compliance into the data platform itself; and reinforcing evidence from multiple sources that poor data quality—not AI capabilities—remains the primary obstacle for enterprise AI adoption in financial services. The episode emphasizes that these issues are particularly urgent for banks and credit unions navigating mergers, where data unification directly impacts the viability of AI deployments like credit",
+      "keyTopics": [
+        "OpenAI-Hugging Face sandbox escape security incident",
+        "AI agent security in financial services deployments",
+        "Databricks Lakebase Postgres agent orchestration auditability",
+        "Databricks Discover and Domains public preview",
+        "Financial data quality as AI bottleneck",
+        "Graph neural networks for fraud detection",
+        "Bank M&A data unification challenges",
+        "Snowflake Cortex AI model availability"
+      ]
+    },
+    {
       "date": "2026-07-22",
       "summary": "This episode unpacks four major developments reshaping enterprise AI and data governance. Databricks' new Discover and Domains feature offers a concrete way to organize and audit data assets—critical as banks deploy AI in lending and credit decisions. Bank of America's finance leadership publicly validated what data teams have long argued: data quality, not AI models, is the real bottleneck for enterprise AI adoption. Capital One's simultaneous integration of Discover Financial Services and Brex highlights the urgent need for unified data platforms during M&A, a pattern emerging across financial consolidation. Finally, a security breach involving OpenAI and Hugging Face during model evaluation reveals that governance requirements now extend beyond production into development and testing pipelines—a",
       "keyTopics": [
@@ -174,20 +188,6 @@
         "Microsoft Fabric data agent API and security updates",
         "AI tooling cost attribution and financial justification",
         "Banking regulatory instability and compliance anxiety"
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "summary": "This episode examines three major developments reshaping enterprise conversations: the US-Iran peace deal and its aftermath in the Strait of Hormuz is closing a geopolitical crisis but exposing permanent gaps in insurance carriers' real-time catastrophe modeling infrastructure, making it the perfect case study for selling streaming data capabilities to risk-exposed customers. Alibaba's public ban on Claude Code over security concerns follows earlier flags around the tool and significantly strengthens the argument for model-agnostic, vendor-independent AI infrastructure in financial services where security posture is non-negotiable. The week's product moves from Databricks, Snowflake, Microsoft Fabric, and BigQuery highlight the competitive race to solve data governance and",
-      "keyTopics": [
-        "Strait of Hormuz crisis real-time insurance infrastructure",
-        "Alibaba bans Claude Code citing security backdoor risks",
-        "Databricks AI experimentation to production deployment framework",
-        "Databricks AI leaders infrastructure investment headcount growth",
-        "Snowflake marketplace hundred million dollars partner revenue",
-        "Microsoft Fabric security governance enterprise features",
-        "BigQuery conversational analytics general availability",
-        "EagleBank BSA violations real-time transaction monitoring"
       ]
     }
   ]
