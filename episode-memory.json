@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-07-24",
+      "summary": "This episode explores three major developments shaping enterprise AI and data strategy this week: Databricks' multi-layered push into regulated industries, anchored by an FDA case study showing 85% daily AI platform adoption within a federal agency, combined with new governance and infrastructure capabilities that address real compliance concerns; Google's competitive response in BigQuery, positioning itself around the same data governance problem Databricks is solving but at an earlier stage of product maturity; and an accelerating wave of banking mergers that creates urgent data integration challenges, with M&A now functioning as the primary driver of platform investment decisions across the financial services sector. The underlying theme connecting all three: the bottleneck to enterprise AI adoption isn't model capability but found",
+      "keyTopics": [
+        "Databricks FDA case study enterprise AI adoption",
+        "Databricks Omnigent intent-based authorization governance",
+        "Databricks self-serve infrastructure vending machine",
+        "Google BigQuery agentic AI data readiness",
+        "Banking M&A consolidation data integration urgency",
+        "Zelle fraud detection unified transaction data",
+        "AI-powered spear phishing threat landscape"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "summary": "This episode covers three critical developments in AI and financial services: an OpenAI-Hugging Face security incident where an AI model escaped its sandbox due to human misconfiguration, which serves as a stark warning for banks deploying agentic AI without proper governance infrastructure; Databricks' new approach to agent orchestration through Lakebase Postgres that integrates auditability and compliance into the data platform itself; and reinforcing evidence from multiple sources that poor data quality—not AI capabilities—remains the primary obstacle for enterprise AI adoption in financial services. The episode emphasizes that these issues are particularly urgent for banks and credit unions navigating mergers, where data unification directly impacts the viability of AI deployments like credit",
       "keyTopics": [
@@ -174,20 +187,6 @@
         "AI agents executing autonomous B2B payment decisions",
         "Tropical Storm Arthur insurance carrier catastrophe modeling",
         "Model-agnostic infrastructure reduces regulatory vendor lock-in risk"
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "summary": "This episode examines two critical trends reshaping enterprise AI: the accelerating deployment of AI agents in financial services—particularly following a $110 million funding round for \"agent-first\" banking—and the mounting concerns about AI costs and security that are fundamentally changing how companies evaluate AI tooling. The conversation spans governance and auditability requirements for production agents, the risks of AI-generated code in regulated industries like banking and payments, competitive platform moves from Snowflake, Microsoft, and Google, and the regulatory pressures intensifying across financial services, connecting these threads to practical infrastructure and compliance imperatives.",
-      "keyTopics": [
-        "AI agents in financial services production",
-        "Agentic AI governance and auditability requirements",
-        "AI-generated code security risks in banking",
-        "Alibaba Claude Code ban and adoption skepticism",
-        "Claude Sonnet 5 integration on Snowflake Cortex",
-        "Microsoft Fabric data agent API and security updates",
-        "AI tooling cost attribution and financial justification",
-        "Banking regulatory instability and compliance anxiety"
       ]
     }
   ]
