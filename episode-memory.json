@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-29",
+      "summary": "This episode tracks three major developments reshaping enterprise AI strategy: Databricks demonstrating real-world AI cost governance through its own internal deployment, and Snowflake responding with competitive AI security features announced at Black Hat—a differentiation battle ultimately decided by underlying data infrastructure rather than feature announcements. The financial services angle is particularly sharp: Visa's explicit attribution of a seven-percent workforce reduction to AI efficiency is signaling that autonomous agents and data-driven automation are moving from pilot to production, creating urgent data governance conversations for banks and fintechs pursuing charter approvals, while security concerns raised by OpenAI leadership are normalizing the case for robust deployment safeguards.",
+      "keyTopics": [
+        "Databricks Unity AI Gateway cost governance",
+        "Databricks AI Search production-scale query volumes",
+        "Snowflake Cortex AI Gateway and security features",
+        "Google Cloud conversational analytics in BigQuery",
+        "Visa seven percent workforce reduction AI efficiency",
+        "Flex fintech industrial loan company charter application",
+        "Sam Altman OpenAI security incident deceleration",
+        "LLM alignment faking arXiv research paper"
+      ]
+    },
+    {
       "date": "2026-07-28",
       "summary": "This episode covers three critical business trends shaping enterprise technology conversations this week: Microsoft CEO Satya Nadella's warning that companies need independent data governance layers between their enterprise data and AI models—validating the infrastructure-as-critical argument for platforms like Databricks—plus two urgent repricing pressures for insurance carriers from AI-accelerated vulnerability discovery doubling the cyber risk surface and Red Sea shipping disruptions creating recurring volatility in marine and cargo underwriting. The episode also tracks competitive moves from Anthropic, Snowflake, and Google to embed frontier AI models into enterprise platforms, emphasizing that model access is becoming commoditized while governance, auditability, and real-time data infrastructure remain the true different",
       "keyTopics": [
@@ -172,20 +186,6 @@
         "Typhoon Bavi catastrophe modeling real-time risk",
         "Databricks Azure Synapse migration guide",
         "Financial services identity inconsistencies compliance risk"
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "summary": "This episode covers four major developments reshaping enterprise data and AI strategy: escalating geopolitical tensions in the Strait of Hormuz are exposing critical gaps in real-time catastrophe modeling at insurance carriers, while an 85% increase in AI budgets across financial services signals accelerating enterprise adoption. Databricks' benchmark study on coding agents reveals that standard evaluation metrics don't transfer to real-world codebases—a governance concern for regulated institutions—while Snowflake advances its competitive position with ML Jobs in Data Clean Rooms and new AI cost management tools. The overarching theme is that increased AI spending without proper data infrastructure and governance creates risk; the winning strategy involves building model-agnostic systems that",
-      "keyTopics": [
-        "Strait of Hormuz shipping disruption escalation",
-        "Insurance real-time catastrophe modeling infrastructure gap",
-        "Financial services AI budget increase 85 percent",
-        "Databricks coding agent benchmark integrity analysis",
-        "Snowflake ML Jobs collaborative data clean rooms",
-        "Snowflake AI FinOps cost attribution capabilities",
-        "BigQuery Conversational Analytics general availability",
-        "Coding AI benchmark gaming vs real-world evaluation"
       ]
     }
   ]
