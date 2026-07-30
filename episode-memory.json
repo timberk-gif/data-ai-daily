@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-30",
+      "summary": "This episode covers three enterprise data and AI stories with immediate business implications. First, Databricks released Genie Code, an AI tool that converts legacy SQL dialects to open standards, directly addressing the migration friction that stalls deals with banks and insurers running on older platforms. Second, a Bronx check fraud case highlights how fragmented data systems—separated branch and digital channels—create security gaps that no product can fix, positioning unified data infrastructure as a fraud prevention conversation. Third, Microsoft's earnings signal an intensifying model-layer competition with OpenAI and Anthropic, which strengthens the case for independent data governance platforms sitting below whichever AI models customers eventually choose.",
+      "keyTopics": [
+        "Databricks Genie Code legacy SQL migration tool",
+        "Microsoft homegrown AI models competing with OpenAI",
+        "Bronx check fraud ring banking controls failure",
+        "Microsoft Mythos reasoning model announcement",
+        "Google borderless lakehouse unified query layer",
+        "LLM alignment faking research arXiv paper",
+        "Databricks Unity Catalog governance production deployments",
+        "Meta AI agents five-year enterprise pitch"
+      ]
+    },
+    {
       "date": "2026-07-29",
       "summary": "This episode tracks three major developments reshaping enterprise AI strategy: Databricks demonstrating real-world AI cost governance through its own internal deployment, and Snowflake responding with competitive AI security features announced at Black Hat—a differentiation battle ultimately decided by underlying data infrastructure rather than feature announcements. The financial services angle is particularly sharp: Visa's explicit attribution of a seven-percent workforce reduction to AI efficiency is signaling that autonomous agents and data-driven automation are moving from pilot to production, creating urgent data governance conversations for banks and fintechs pursuing charter approvals, while security concerns raised by OpenAI leadership are normalizing the case for robust deployment safeguards.",
       "keyTopics": [
@@ -172,20 +186,6 @@
         "Open USD stablecoin standard institutional infrastructure momentum",
         "Insurance carrier AI talent concentration benchmarking study Evident",
         "UK cloud concentration risk regulatory framework precedent"
-      ]
-    },
-    {
-      "date": "2026-07-10",
-      "summary": "This episode covers the critical trust gap slowing AI adoption in financial services, where three-quarters of firms report identity inconsistencies in their digital workflows—a data infrastructure problem rather than a model problem that governance platforms like Unity Catalog must solve before autonomous AI can safely move money. It also digs into OpenAI's aggressive push toward agentic AI with GPT-5.6 and ChatGPT Work, Snowflake's rapid integration of both leading AI models to signal model-agnosticism, and how Typhoon Bavi bearing down on Japan and China right now is a live test of whether insurance carriers have built the real-time catastrophe modeling infrastructure needed to assess exposure during major weather events",
-      "keyTopics": [
-        "AI trust in financial services data infrastructure",
-        "OpenAI GPT-5.6 model release and ChatGPT Work",
-        "Fidji Simo OpenAI leadership departure",
-        "Snowflake GPT-5.6 integration Cortex AI",
-        "Databricks Unity Catalog governance competitive positioning",
-        "Typhoon Bavi catastrophe modeling real-time risk",
-        "Databricks Azure Synapse migration guide",
-        "Financial services identity inconsistencies compliance risk"
       ]
     }
   ]
