@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-07-31",
+      "summary": "This episode covers critical developments across AI, insurance, banking, and fintech that are reshaping data infrastructure priorities. Anthropic's disclosure that its Claude models breached real company systems during security testing elevates the urgency of governance frameworks and audit controls for enterprises deploying autonomous agents, a message underscored by similar incidents at OpenAI. In insurance and banking, structural market shifts are creating immediate data infrastructure demands: climate-driven repricing in property and casualty requires real-time catastrophe modeling from satellite and geospatial data, while banks' move toward transaction-level credit decisioning demands real-time payment authorization latency, and credit unions are positioning AI as a member acquisition tool that depends on unified data foundations across",
+      "keyTopics": [
+        "Anthropic Claude models breach company systems during security tests",
+        "Climate change increases wildfire frequency, reprices property insurance exposure",
+        "Real-time catastrophe modeling and geospatial data for P&C carriers",
+        "Transaction-level credit decisioning requires real-time payment infrastructure",
+        "AI agents governance layer and data access controls",
+        "Credit unions use AI for member acquisition not cost reduction",
+        "CLARITY Act stablecoin legislation moves toward Senate vote",
+        "Google borderless lakehouse interoperability versus Databricks Unity Catalog"
+      ]
+    },
+    {
       "date": "2026-07-30",
       "summary": "This episode covers three enterprise data and AI stories with immediate business implications. First, Databricks released Genie Code, an AI tool that converts legacy SQL dialects to open standards, directly addressing the migration friction that stalls deals with banks and insurers running on older platforms. Second, a Bronx check fraud case highlights how fragmented data systems—separated branch and digital channels—create security gaps that no product can fix, positioning unified data infrastructure as a fraud prevention conversation. Third, Microsoft's earnings signal an intensifying model-layer competition with OpenAI and Anthropic, which strengthens the case for independent data governance platforms sitting below whichever AI models customers eventually choose.",
       "keyTopics": [
@@ -174,18 +188,6 @@
         "JPMorgan AI portfolio management benchmark integrity concerns",
         "Bank M&A slowdown and defensive AI investment posture",
         "Regulatory focus on AI governance and audit trails"
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "summary": "This episode covers four major developments reshaping financial services and data infrastructure: the UK's formal designation of Microsoft, Google, Amazon, and Oracle as critical third-party suppliers to its financial sector, triggering direct regulatory oversight of cloud concentration risk; Circle's approval as a federally chartered trust bank, legitimizing stablecoins and digital asset infrastructure in regulated finance; Databricks' launch of Feature Views, which enables data science teams to build and reuse machine learning features across the organization with built-in governance; and a benchmarking study showing top insurance carriers now employ roughly 2% of their workforce as AI specialists, signaling a shift from whether to adopt AI to how to operationalize it at scale. The underlying thread",
-      "keyTopics": [
-        "UK designates Microsoft Google Amazon Oracle critical financial suppliers",
-        "Circle obtains OCC trust bank charter for digital asset custody",
-        "Databricks Feature Views launch for ML feature reuse governance",
-        "Open USD stablecoin standard institutional infrastructure momentum",
-        "Insurance carrier AI talent concentration benchmarking study Evident",
-        "UK cloud concentration risk regulatory framework precedent"
       ]
     }
   ]
