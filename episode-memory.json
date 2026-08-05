@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-05",
+      "summary": "Financial services institutions face mounting regulatory pressure to demonstrate real-time transaction monitoring and AI governance capabilities, as evidenced by Capital One's account closures based on AML pattern detection and ongoing consent order enforcement against banks with inadequate compliance infrastructure. Meanwhile, the AI security landscape is consolidating around governance platforms like Databricks' newly general-available Unity AI Gateway, which provides the independent oversight layer enterprises need as model providers and capabilities continue to shift. Credit unions and banks deploying AI for member acquisition and personalization must simultaneously invest in unified data foundations and governance infrastructure to compete with fintechs while satisfying regulators demanding documented audit trails for every AI-influenced decision.",
+      "keyTopics": [
+        "Capital One AML account closures and transaction monitoring",
+        "Lakeland Bank consent order regulatory compliance enforcement",
+        "Databricks Unity AI Gateway general availability",
+        "Databricks Open Secure AI Alliance membership",
+        "Anthropic ten billion dollar Volta infrastructure deal",
+        "Open-weight model safety gap versus frontier models",
+        "Google BigQuery borderless lakehouse cross-platform query",
+        "Credit union member behavior and AI personalization"
+      ]
+    },
+    {
       "date": "2026-08-04",
       "summary": "This episode examines how poor data infrastructure is creating mounting financial and regulatory costs across financial services and insurance. It covers Databricks' acquisition of Panther, a security-focused data platform, which enables real-time AI auditing and compliance—a capability that directly addresses regulator demands for human oversight of AI decisions. The episode uses concrete examples like UBS's $125 million AML penalty for unmonitored transactions and Europe's wildfire season forcing insurers to rapidly reprice risk, arguing that unified data infrastructure is no longer a technology upgrade but an existential business strategy to manage regulatory exposure, operational efficiency, and competitive advantage in AI-driven operations.",
       "keyTopics": [
@@ -177,20 +191,6 @@
         "Wells Fargo AI advisor tool for financial advisers",
         "Lumin Digital seventy million dollar credit union funding",
         "Snowflake Claude Sonnet 5 Cortex AI integration"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "summary": "This episode covers four major developments reshaping enterprise AI infrastructure and adoption. Apache Spark 4.2 and Databricks' architectural argument for locating AI agents inside data platforms—rather than moving data to external models—underscore how governance and compliance become built-in rather than bolted-on, with significant implications for financial services firms managing regulatory requirements. Separately, BNY Mellon's earnings call revealed measurable AI impact and adoption as the true differentiator, while Bank of America's Erica chatbot hit 25 million active users, signaling that the window for financial institutions to operationalize AI is closing and the gap between early movers and laggards is widening. The episode",
-      "keyTopics": [
-        "Apache Spark 4.2 AI workload integration",
-        "Databricks agents inside data platform architecture",
-        "Snowflake Cortex multi-model availability expansion",
-        "BNY Mellon measurable AI adoption impact",
-        "Bank of America Erica chatbot 25M users",
-        "Strait of Hormuz marine insurance exposure risk",
-        "OpenAI GPT-Red automated red-teaming system",
-        "Thinking Machines Lab Inkling open model"
       ]
     }
   ]
