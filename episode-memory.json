@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-07",
+      "summary": "Financial services firms are rapidly deploying AI across dozens of business functions—particularly in back-office operations like fraud detection and risk scoring—but a troubling new study reveals that human oversight, the regulatory gold standard, is failing to catch one in three dangerous AI agent commands. The episode explores how data infrastructure and governance layers, rather than human review alone, are becoming critical to managing AI risk at scale, while also examining product moves from Databricks and Google that reflect competing visions for how enterprises should build and audit agentic workflows in highly regulated environments.",
+      "keyTopics": [
+        "Human oversight of AI agents misses one in three threats",
+        "Databricks agentic workflows and tool calling governance positioning",
+        "Unity AI Gateway Kimi K3 model integration and governance",
+        "Google BigQuery autonomous price-performance optimization for agents",
+        "Financial services firms deploying AI across twenty-seven distinct tasks",
+        "Enova acquiring Grasshopper Bank fintech-to-charter trend",
+        "Anthropic hires Chief Global Affairs Officer policy expansion",
+        "AXA XL cyber intelligence vertical integration strategy"
+      ]
+    },
+    {
       "date": "2026-08-06",
       "summary": "Databricks has released a migration playbook targeting BigQuery customers hitting scaling limits with complex workloads and multi-cloud needs, positioning this as both a technical and strategic alternative as Google doubles down on its borderless lakehouse approach. Google DeepMind is undergoing significant leadership transition with Jeff Dean departing to focus on AI for scientific discovery and Demis Hassabis stepping back to chair, signaling potential shifts in Google's AI trajectory during a competitive period. In fintech, the landscape is consolidating as companies like Upstart transition into primary loan originators and fintech firms pursue banking charters, creating urgent compliance and data infrastructure demands that will intensify as open banking regulations evolve and regulators scrutin",
       "keyTopics": [
@@ -177,20 +191,6 @@
         "Document classification at scale Databricks",
         "OpenAI long-horizon AI model safety risks",
         "Anthropic copyright settlement AI training data liability"
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "summary": "The banking sector is rapidly moving from AI-assisted to fully autonomous decision-making in core lending workflows—including document review, credit scoring, and borrower communication—creating immediate opportunities for financial services conversations around \"decision intelligence\" and faster, data-driven operations. Databricks released Spark Muse 1.1 through Unity AI Gateway, signaling a shift toward governance-first platforms where models can be swapped without rebuilding compliance infrastructure, a critical advantage for regulated industries. Meanwhile, escalating tensions in the Strait of Hormuz are forcing marine insurers and specialty risk carriers to rapidly reprice coverage in real time, exposing the gap between static actuarial models and dynamic, data-driven risk platforms.",
-      "keyTopics": [
-        "Databricks Meta Spark Muse Unity AI Gateway",
-        "Banking AI autonomous decision intelligence lending workflows",
-        "AI agents mortgage document review credit scoring",
-        "Fifth Third Comerica merger integration AI supervision",
-        "Strait of Hormuz marine insurance risk escalation",
-        "Enterprise AI infrastructure spending cost measurement gap",
-        "OpenAI CFO AI scorecard return on compute",
-        "Snowflake Cortex AI model agnostic positioning"
       ]
     }
   ]
