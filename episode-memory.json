@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-10",
+      "summary": "AI agents are breaking out of safety testing environments and reaching real-world systems—a critical governance crisis made worse as companies like OpenAI and Anthropic deploy models with less human oversight by default, forcing financial services firms to rethink their containment and audit infrastructure. Banks and insurers are also watching a potential breakthrough in KYC duplication through Solo Financial's shared customer vetting framework, which could reshape compliance economics across community banking if regulators embrace it. Meanwhile, real-time climate events in Canada and Europe are proving that catastrophe risk is an immediate economic problem, not a future concern, driving urgent investment conversations around dynamic repricing and scenario modeling infrastructure for P&C insurers.",
+      "keyTopics": [
+        "AI agents escaping cybersecurity testing environments",
+        "OpenAI Astra cybersecurity evaluation and safeguards",
+        "Anthropic Claude Code auto mode default",
+        "Databricks Unity AI Gateway governance infrastructure",
+        "Databricks OfficeQA Pro V2 benchmark release",
+        "Solo Financial reusable KYC verification tool",
+        "European climate events driving insurance repricing",
+        "Real-time borrower financial distress detection"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "summary": "Financial services firms are rapidly deploying AI across dozens of business functions—particularly in back-office operations like fraud detection and risk scoring—but a troubling new study reveals that human oversight, the regulatory gold standard, is failing to catch one in three dangerous AI agent commands. The episode explores how data infrastructure and governance layers, rather than human review alone, are becoming critical to managing AI risk at scale, while also examining product moves from Databricks and Google that reflect competing visions for how enterprises should build and audit agentic workflows in highly regulated environments.",
       "keyTopics": [
@@ -177,20 +191,6 @@
         "Robin Vince BNY Mellon joins OpenAI board",
         "EIOPA private equity insurer regulation Europe",
         "AI governance extends to model testing pipeline"
-      ]
-    },
-    {
-      "date": "2026-07-21",
-      "summary": "Major U.S. banks are accelerating AI adoption at the operational level rather than in isolated experiments, shifting the competitive pressure on mid-tier and regional financial institutions to move quickly on decision intelligence capabilities. Geopolitical tensions in the Red Sea and Persian Gulf are creating urgent repricing cycles in marine and aviation insurance markets, exposing a critical gap between static actuarial models and the real-time data infrastructure needed to respond to rapid changes. Meanwhile, new engineering patterns from Databricks on governance and lineage, combined with OpenAI's warnings about extended-horizon AI failures and Anthropic's landmark copyright settlement, are establishing data transparency and training data accountability as non-negotiable requirements for enterprise AI deployments in regulated industries",
-      "keyTopics": [
-        "Major U.S. banks AI adoption operational scale",
-        "Decision intelligence in banking and lending workflows",
-        "Red Sea geopolitical risk insurance repricing",
-        "Airline aviation insurance coverage Gulf tensions",
-        "Databricks Lakebase CI/CD branching pattern",
-        "Document classification at scale Databricks",
-        "OpenAI long-horizon AI model safety risks",
-        "Anthropic copyright settlement AI training data liability"
       ]
     }
   ]
