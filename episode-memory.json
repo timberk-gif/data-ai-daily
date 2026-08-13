@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-13",
+      "summary": "This episode examines three converging trends affecting enterprise AI and financial services: Databricks' infrastructure capabilities at massive scale, OpenAI's move into ad-supported ChatGPT and its implications for enterprise data governance, and critical regulatory shifts reshaping how banks approach customer identity and compliance. The underlying thread connecting all three is the growing importance of data infrastructure and governance—particularly relevant for financial services firms now facing a FinCEN beneficial ownership database rollback that will require building proprietary identity verification systems, alongside broader pressure to operationalize AI models like weather forecasting breakthroughs while maintaining strict control over sensitive data.",
+      "keyTopics": [
+        "Databricks serverless platform network configuration scale",
+        "Databricks AUTO CDC late-arriving data handling",
+        "OpenAI ads testing ChatGPT free tier",
+        "FinCEN beneficial ownership database exemption impact",
+        "Goldman Sachs NEOS ETF acquisition strategy",
+        "Google DeepMind WeatherNext cyclone forecasting model",
+        "Enterprise agentic AI governance and containment",
+        "Marine insurance geopolitical risk clustering pricing"
+      ]
+    },
+    {
       "date": "2026-08-12",
       "summary": "This episode covers three major developments reshaping data and AI infrastructure in financial services. Databricks acquired Electric to enable WebAssembly-based Postgres sandboxing for AI agents—a critical governance solution for regulated environments—while also advancing real-time change data capture and publishing risk modeling guidance for Chief Risk Officers. The insurance industry is being forced to reclassify \"secondary perils\" like wildfires and storms as equally catastrophic risks, exposing decades of actuarial models built on obsolete loss distributions, while a credit union lawsuit against Snowflake establishes that downstream institutions can seek damages for breaches in cloud data infrastructure, fundamentally shifting vendor liability and risk assessment.",
       "keyTopics": [
@@ -179,19 +193,6 @@
         "Task-based AI deployment model for retail banking",
         "Google Open Knowledge Format version 0.2 release",
         "Dynamic insurance pricing with real-time geopolitical data"
-      ]
-    },
-    {
-      "date": "2026-07-24",
-      "summary": "This episode explores three major developments shaping enterprise AI and data strategy this week: Databricks' multi-layered push into regulated industries, anchored by an FDA case study showing 85% daily AI platform adoption within a federal agency, combined with new governance and infrastructure capabilities that address real compliance concerns; Google's competitive response in BigQuery, positioning itself around the same data governance problem Databricks is solving but at an earlier stage of product maturity; and an accelerating wave of banking mergers that creates urgent data integration challenges, with M&A now functioning as the primary driver of platform investment decisions across the financial services sector. The underlying theme connecting all three: the bottleneck to enterprise AI adoption isn't model capability but found",
-      "keyTopics": [
-        "Databricks FDA case study enterprise AI adoption",
-        "Databricks Omnigent intent-based authorization governance",
-        "Databricks self-serve infrastructure vending machine",
-        "Google BigQuery agentic AI data readiness",
-        "Banking M&A consolidation data integration urgency",
-        "Zelle fraud detection unified transaction data",
-        "AI-powered spear phishing threat landscape"
       ]
     }
   ]
