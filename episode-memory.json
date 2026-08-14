@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-14",
+      "summary": "Databricks secured a landmark $5 billion funding round at a $190 billion valuation, signaling massive investor confidence in the company's ability to compete in AI infrastructure and strengthening its competitive positioning against giants like Microsoft and Google. The episode explores how this capital is fueling products like Unity AI Gateway's Smart Routing feature, which cuts model costs by 30% while maintaining governance and auditability—a critical advantage in regulated industries where competitors like Google are building vertical integrations but lack cross-cloud governance capabilities. The podcast also covers emerging risks around multi-agent AI systems in banking and insurance, OpenAI's new speed capabilities and IBM partnership expansion, and regulatory pressure in New York requiring bank boards to audit vendor technology",
+      "keyTopics": [
+        "Databricks $5 billion funding round valuation",
+        "Databricks Unity AI Gateway Smart Routing",
+        "OpenAI Ultrafast mode GPT-5.6 Sol",
+        "IBM partnership OpenAI consultant training distribution",
+        "Anthropic multi-agent system safety research",
+        "New York State bank vendor audit requirements",
+        "AI agent governance regulated industries risk"
+      ]
+    },
+    {
       "date": "2026-08-13",
       "summary": "This episode examines three converging trends affecting enterprise AI and financial services: Databricks' infrastructure capabilities at massive scale, OpenAI's move into ad-supported ChatGPT and its implications for enterprise data governance, and critical regulatory shifts reshaping how banks approach customer identity and compliance. The underlying thread connecting all three is the growing importance of data infrastructure and governance—particularly relevant for financial services firms now facing a FinCEN beneficial ownership database rollback that will require building proprietary identity verification systems, alongside broader pressure to operationalize AI models like weather forecasting breakthroughs while maintaining strict control over sensitive data.",
       "keyTopics": [
@@ -180,19 +193,6 @@
         "Red Sea shipping disruption insurance repricing pressure",
         "Real-time payments exposing legacy financial infrastructure costs",
         "Fintech bank charter conversions regulatory data requirements"
-      ]
-    },
-    {
-      "date": "2026-07-27",
-      "summary": "An OpenAI cyberattack at Hugging Face has been reframed as the first \"autonomous agent cyberattack,\" escalating security concerns across financial services and forcing banks and fintechs to confront new infrastructure-level governance challenges beyond traditional policy fixes. Meanwhile, Upstart's conditional bank charter approval, Claude Opus 5's release, and growing deployment of task-based AI systems are creating urgent data quality and auditability demands across banking and insurance, where the real bottleneck isn't the models but the underlying data infrastructure. Google's updated Open Knowledge Format signals a competitive push toward standardized agentic data governance, while real-time operational challenges like geopolitical shipping disruptions highlight",
-      "keyTopics": [
-        "OpenAI autonomous agent cyberattack and security implications",
-        "Databricks Lakebase auditability and agentic governance",
-        "Anthropic Claude Opus 5 and Snowflake Cortex AI",
-        "Upstart bank charter approval and data infrastructure",
-        "Task-based AI deployment model for retail banking",
-        "Google Open Knowledge Format version 0.2 release",
-        "Dynamic insurance pricing with real-time geopolitical data"
       ]
     }
   ]
