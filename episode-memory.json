@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-17",
+      "summary": "Stripe's acquisition of AI gateway startup OpenRouter for over seven billion dollars signals the growing value of AI model routing and cost optimization in financial services, positioning Stripe as a potential infrastructure player beyond payments—though governance-focused alternatives like Databricks' Unity AI Gateway offer advantages for regulated firms seeking integrated data lineage and compliance. Anthropic's new text watermarking for Claude represents an emerging step toward output provenance and AI accountability, a capability that will likely become a regulatory expectation and a forcing function for enterprise governance workflows. The week also surfaced consumer skepticism about banks' ability to self-police AI deployment in a deregulatory environment, fresh survey data on treating AI as a data infrastructure transformation rather than a bolt",
+      "keyTopics": [
+        "Stripe acquires OpenRouter for seven billion dollars",
+        "Anthropic Claude text watermarking for output provenance",
+        "Microsoft Fabric Lakehouse dbt integration launch",
+        "Databricks Unity AI Gateway Smart Routing",
+        "Bank consumer skepticism about AI self-policing",
+        "Google BigQuery Graphs for agentic workloads",
+        "Databricks AI Functions for warehouse workflows"
+      ]
+    },
+    {
       "date": "2026-08-14",
       "summary": "Databricks secured a landmark $5 billion funding round at a $190 billion valuation, signaling massive investor confidence in the company's ability to compete in AI infrastructure and strengthening its competitive positioning against giants like Microsoft and Google. The episode explores how this capital is fueling products like Unity AI Gateway's Smart Routing feature, which cuts model costs by 30% while maintaining governance and auditability—a critical advantage in regulated industries where competitors like Google are building vertical integrations but lack cross-cloud governance capabilities. The podcast also covers emerging risks around multi-agent AI systems in banking and insurance, OpenAI's new speed capabilities and IBM partnership expansion, and regulatory pressure in New York requiring bank boards to audit vendor technology",
       "keyTopics": [
@@ -179,20 +192,6 @@
         "Flex fintech industrial loan company charter application",
         "Sam Altman OpenAI security incident deceleration",
         "LLM alignment faking arXiv research paper"
-      ]
-    },
-    {
-      "date": "2026-07-28",
-      "summary": "This episode covers three critical business trends shaping enterprise technology conversations this week: Microsoft CEO Satya Nadella's warning that companies need independent data governance layers between their enterprise data and AI models—validating the infrastructure-as-critical argument for platforms like Databricks—plus two urgent repricing pressures for insurance carriers from AI-accelerated vulnerability discovery doubling the cyber risk surface and Red Sea shipping disruptions creating recurring volatility in marine and cargo underwriting. The episode also tracks competitive moves from Anthropic, Snowflake, and Google to embed frontier AI models into enterprise platforms, emphasizing that model access is becoming commoditized while governance, auditability, and real-time data infrastructure remain the true different",
-      "keyTopics": [
-        "Satya Nadella AI infrastructure abstraction layer warning",
-        "AI doubling software vulnerability discovery in 2026",
-        "Anthropic Claude enterprise partnership with Cognizant",
-        "Snowflake Claude Opus 5 Cortex AI integration",
-        "SAP Business Data Cloud Connect BigQuery GA",
-        "Red Sea shipping disruption insurance repricing pressure",
-        "Real-time payments exposing legacy financial infrastructure costs",
-        "Fintech bank charter conversions regulatory data requirements"
       ]
     }
   ]
