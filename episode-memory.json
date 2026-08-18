@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-18",
+      "summary": "This episode covers three high-impact topics for customer conversations: Databricks' Feature Store technology enabling sub-second data freshness for fraud detection and real-time ML use cases, plus broader themes around reducing prototyping overhead and rigorous AI agent evaluation in regulated industries. A security incident at Snowflake—where an AI-generated code fix introduced a vulnerability—serves as a concrete reminder that AI governance failures have real consequences, making it an important discussion point around code review processes and vendor due diligence. Finally, new consumer data shows strong appetite for AI-assisted financial products, but the limiting factor is whether underlying data infrastructure can support real-time, accurate recommendations—positioning governance-focused platforms as increasingly critical differentiators",
+      "keyTopics": [
+        "Databricks Feature Store sub-second freshness",
+        "Databricks prototyping tax and AI roadmap",
+        "Grounded Reasoning Cup AI agent evaluation",
+        "Snowflake Jira security incident GitHub Copilot",
+        "AI code governance and production safety",
+        "Consumer AI adoption in fintech and lending",
+        "GPT-5.6 Sol pricing reduction fifty percent",
+        "Enterprise AI adoption measurement and outcomes"
+      ]
+    },
+    {
       "date": "2026-08-17",
       "summary": "Stripe's acquisition of AI gateway startup OpenRouter for over seven billion dollars signals the growing value of AI model routing and cost optimization in financial services, positioning Stripe as a potential infrastructure player beyond payments—though governance-focused alternatives like Databricks' Unity AI Gateway offer advantages for regulated firms seeking integrated data lineage and compliance. Anthropic's new text watermarking for Claude represents an emerging step toward output provenance and AI accountability, a capability that will likely become a regulatory expectation and a forcing function for enterprise governance workflows. The week also surfaced consumer skepticism about banks' ability to self-police AI deployment in a deregulatory environment, fresh survey data on treating AI as a data infrastructure transformation rather than a bolt",
       "keyTopics": [
@@ -178,20 +192,6 @@
         "LLM alignment faking research arXiv paper",
         "Databricks Unity Catalog governance production deployments",
         "Meta AI agents five-year enterprise pitch"
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "summary": "This episode tracks three major developments reshaping enterprise AI strategy: Databricks demonstrating real-world AI cost governance through its own internal deployment, and Snowflake responding with competitive AI security features announced at Black Hat—a differentiation battle ultimately decided by underlying data infrastructure rather than feature announcements. The financial services angle is particularly sharp: Visa's explicit attribution of a seven-percent workforce reduction to AI efficiency is signaling that autonomous agents and data-driven automation are moving from pilot to production, creating urgent data governance conversations for banks and fintechs pursuing charter approvals, while security concerns raised by OpenAI leadership are normalizing the case for robust deployment safeguards.",
-      "keyTopics": [
-        "Databricks Unity AI Gateway cost governance",
-        "Databricks AI Search production-scale query volumes",
-        "Snowflake Cortex AI Gateway and security features",
-        "Google Cloud conversational analytics in BigQuery",
-        "Visa seven percent workforce reduction AI efficiency",
-        "Flex fintech industrial loan company charter application",
-        "Sam Altman OpenAI security incident deceleration",
-        "LLM alignment faking arXiv research paper"
       ]
     }
   ]
