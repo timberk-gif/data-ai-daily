@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-19",
+      "summary": "Databricks is expanding into unstructured data extraction with Document Intelligence, offering a native solution for enterprises to unlock valuable information trapped in PDFs, contracts, and forms while maintaining governance through Unity Catalog. Snowflake has made competitive moves this week with dynamic model routing and governance frameworks, directly responding to Databricks' recent AI Gateway launch, signaling that intelligent model selection and regulated AI controls are now key battlegrounds. A growing tokenization wave in financial services is creating real-time settlement and compliance demands that require fundamental shifts in data infrastructure, particularly around continuous risk monitoring and audit capabilities that align with lakehouse platforms.",
+      "keyTopics": [
+        "Databricks Document Intelligence unstructured data extraction",
+        "Snowflake dynamic model routing AI cost optimization",
+        "Databricks Unity AI Gateway Smart Routing launch",
+        "Tokenization wave financial services real-time settlement infrastructure",
+        "Runtime governance agentic AI fail-closed execution",
+        "Microsoft Fabric GPU query acceleration data agents",
+        "GxP-Agent clinical trial AI structured process reliability"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "summary": "This episode covers three high-impact topics for customer conversations: Databricks' Feature Store technology enabling sub-second data freshness for fraud detection and real-time ML use cases, plus broader themes around reducing prototyping overhead and rigorous AI agent evaluation in regulated industries. A security incident at Snowflake—where an AI-generated code fix introduced a vulnerability—serves as a concrete reminder that AI governance failures have real consequences, making it an important discussion point around code review processes and vendor due diligence. Finally, new consumer data shows strong appetite for AI-assisted financial products, but the limiting factor is whether underlying data infrastructure can support real-time, accurate recommendations—positioning governance-focused platforms as increasingly critical differentiators",
       "keyTopics": [
@@ -178,20 +191,6 @@
         "Credit unions use AI for member acquisition not cost reduction",
         "CLARITY Act stablecoin legislation moves toward Senate vote",
         "Google borderless lakehouse interoperability versus Databricks Unity Catalog"
-      ]
-    },
-    {
-      "date": "2026-07-30",
-      "summary": "This episode covers three enterprise data and AI stories with immediate business implications. First, Databricks released Genie Code, an AI tool that converts legacy SQL dialects to open standards, directly addressing the migration friction that stalls deals with banks and insurers running on older platforms. Second, a Bronx check fraud case highlights how fragmented data systems—separated branch and digital channels—create security gaps that no product can fix, positioning unified data infrastructure as a fraud prevention conversation. Third, Microsoft's earnings signal an intensifying model-layer competition with OpenAI and Anthropic, which strengthens the case for independent data governance platforms sitting below whichever AI models customers eventually choose.",
-      "keyTopics": [
-        "Databricks Genie Code legacy SQL migration tool",
-        "Microsoft homegrown AI models competing with OpenAI",
-        "Bronx check fraud ring banking controls failure",
-        "Microsoft Mythos reasoning model announcement",
-        "Google borderless lakehouse unified query layer",
-        "LLM alignment faking research arXiv paper",
-        "Databricks Unity Catalog governance production deployments",
-        "Meta AI agents five-year enterprise pitch"
       ]
     }
   ]
