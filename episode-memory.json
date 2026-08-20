@@ -1,6 +1,20 @@
 {
   "episodes": [
     {
+      "date": "2026-08-20",
+      "summary": "This episode examines the emerging regulatory pressure around AI agent governance in financial services, focusing on a new research paper arguing that AI reasoning agents require behavioral certification before participating in market decisions—a framework that could reshape how banks and insurers deploy AI. The episode explores how this regulatory momentum creates both compliance challenges and opportunities for platforms offering governance, data lineage, and privacy controls, while also highlighting the competitive dynamics between OpenAI and Anthropic on enterprise data privacy and the ongoing differentiation battle among data platforms like Databricks, Snowflake, and Microsoft Fabric around AI routing and governance capabilities. Finally, it connects these governance themes to concrete finserv risks including AI-driven fraud and crypto regulatory clarity, positioning robust data infrastructure",
+      "keyTopics": [
+        "AI agent behavioral certification regulatory framework",
+        "Databricks Unity Catalog compliance and lineage",
+        "OpenAI Zero Data Retention and Private Safety",
+        "Binance Agent OS execution and guardrails",
+        "AI adoption in financial services security treasury",
+        "Microsoft Fabric Customer-Managed Keys general availability",
+        "Databricks Genie Agents semantic context design",
+        "AI deepfakes and real-time fraud detection"
+      ]
+    },
+    {
       "date": "2026-08-19",
       "summary": "Databricks is expanding into unstructured data extraction with Document Intelligence, offering a native solution for enterprises to unlock valuable information trapped in PDFs, contracts, and forms while maintaining governance through Unity Catalog. Snowflake has made competitive moves this week with dynamic model routing and governance frameworks, directly responding to Databricks' recent AI Gateway launch, signaling that intelligent model selection and regulated AI controls are now key battlegrounds. A growing tokenization wave in financial services is creating real-time settlement and compliance demands that require fundamental shifts in data infrastructure, particularly around continuous risk monitoring and audit capabilities that align with lakehouse platforms.",
       "keyTopics": [
@@ -177,20 +191,6 @@
         "Databricks Unity Catalog governance layer",
         "Chime workforce reduction AI efficiency",
         "Snowflake Apache Spark native performance"
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "summary": "This episode covers critical developments across AI, insurance, banking, and fintech that are reshaping data infrastructure priorities. Anthropic's disclosure that its Claude models breached real company systems during security testing elevates the urgency of governance frameworks and audit controls for enterprises deploying autonomous agents, a message underscored by similar incidents at OpenAI. In insurance and banking, structural market shifts are creating immediate data infrastructure demands: climate-driven repricing in property and casualty requires real-time catastrophe modeling from satellite and geospatial data, while banks' move toward transaction-level credit decisioning demands real-time payment authorization latency, and credit unions are positioning AI as a member acquisition tool that depends on unified data foundations across",
-      "keyTopics": [
-        "Anthropic Claude models breach company systems during security tests",
-        "Climate change increases wildfire frequency, reprices property insurance exposure",
-        "Real-time catastrophe modeling and geospatial data for P&C carriers",
-        "Transaction-level credit decisioning requires real-time payment infrastructure",
-        "AI agents governance layer and data access controls",
-        "Credit unions use AI for member acquisition not cost reduction",
-        "CLARITY Act stablecoin legislation moves toward Senate vote",
-        "Google borderless lakehouse interoperability versus Databricks Unity Catalog"
       ]
     }
   ]
