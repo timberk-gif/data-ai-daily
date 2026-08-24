@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-24",
+      "summary": "This episode breaks down three major business-technology stories reshaping financial services and insurance: Flagstar Bank's migration to a cloud-native core banking system, which opens a crucial window for data platform conversations with regional banks evaluating modernization; Snowflake's aggressive push into AI governance and model routing as a competitive response to Databricks' Unity AI Gateway, with important implications for regulated institutions needing integrated lineage and audit capabilities; and a real-time climate risk case study from London's subsidence crisis, where insurers' traditional actuarial models are failing because extreme weather patterns are outrunning historical data—making continuous model retraining and real-time environmental data infrastructure a competitive necessity for P&C and re",
+      "keyTopics": [
+        "Flagstar Bank cloud-native core banking migration",
+        "Snowflake governance and AI competitive response",
+        "Databricks Unity Catalog integrated lineage and controls",
+        "Microsoft Fabric agentic warehouse development preview",
+        "Insurance climate risk underwriting real-time modeling",
+        "AI model landscape fragmentation and routing",
+        "London subsidence claims actuarial model breakdown"
+      ]
+    },
+    {
       "date": "2026-08-21",
       "summary": "This episode unpacks major developments in data platforms and AI infrastructure targeting financial services. Databricks is removing a major barrier to enterprise migration with new SQL compatibility features that handle legacy systems like stored procedures, while also expanding Private Link support for its Genie agents to meet banking security requirements—positioning itself against competitors like Snowflake and Microsoft Fabric, all racing to capture customers modernizing legacy data stacks. The finserv signal is unmissable: credit union AI chatbot adoption jumped from 3% to 46%, revealing that infrastructure readiness—not awareness—is now the constraint, while the $7.5 billion Stripe-OpenRouter deal signals the industry shift toward AI-initiated autonomous commerce, forcing banks",
       "keyTopics": [
@@ -176,20 +189,6 @@
         "Open-weight model safety gap versus frontier models",
         "Google BigQuery borderless lakehouse cross-platform query",
         "Credit union member behavior and AI personalization"
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "summary": "This episode examines how poor data infrastructure is creating mounting financial and regulatory costs across financial services and insurance. It covers Databricks' acquisition of Panther, a security-focused data platform, which enables real-time AI auditing and compliance—a capability that directly addresses regulator demands for human oversight of AI decisions. The episode uses concrete examples like UBS's $125 million AML penalty for unmonitored transactions and Europe's wildfire season forcing insurers to rapidly reprice risk, arguing that unified data infrastructure is no longer a technology upgrade but an existential business strategy to manage regulatory exposure, operational efficiency, and competitive advantage in AI-driven operations.",
-      "keyTopics": [
-        "Databricks completes Panther SIEM acquisition",
-        "Security Lakehouse governance and AI auditability",
-        "UBS $125 million AML compliance penalty",
-        "Human-in-the-loop AI review operational unsustainability",
-        "European wildfire season P&C repricing pressure",
-        "Agentic payments governance and real-time monitoring",
-        "Databricks Variant semi-structured data support GA",
-        "Unified data infrastructure regulatory risk mitigation"
       ]
     }
   ]
