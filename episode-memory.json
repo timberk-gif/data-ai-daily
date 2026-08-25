@@ -1,6 +1,19 @@
 {
   "episodes": [
     {
+      "date": "2026-08-25",
+      "summary": "This episode covers three critical shifts reshaping how financial institutions approach AI and data infrastructure. First, a new governance protocol called AIREP is emerging as the standard regulators will likely adopt for auditing AI decisions in real time—moving beyond platform-level controls to require signed, verifiable evidence of every single AI output, which most firms currently cannot produce. Second, the SEC's investigation into the hedge fund Situational Awareness serves as a concrete cautionary tale about what happens when AI systems make high-stakes financial decisions without proper governance infrastructure backing them up. Finally, banks are rapidly turning real-time payment rails into customer-facing products, which demands a complete overhaul of internal data infrastructure—moving from batch processing to millisec",
+      "keyTopics": [
+        "AIREP protocol per-decision AI governance audit trail",
+        "Situational Awareness hedge fund SEC investigation",
+        "Databricks Unity Catalog integrated AI governance lineage",
+        "Snowflake CoCo enterprise AI controls competitive response",
+        "Microsoft Fabric Google Lakehouse catalog mirroring preview",
+        "Real-time payment rails banking infrastructure requirements",
+        "AI agent behavioral certification financial markets"
+      ]
+    },
+    {
       "date": "2026-08-24",
       "summary": "This episode breaks down three major business-technology stories reshaping financial services and insurance: Flagstar Bank's migration to a cloud-native core banking system, which opens a crucial window for data platform conversations with regional banks evaluating modernization; Snowflake's aggressive push into AI governance and model routing as a competitive response to Databricks' Unity AI Gateway, with important implications for regulated institutions needing integrated lineage and audit capabilities; and a real-time climate risk case study from London's subsidence crisis, where insurers' traditional actuarial models are failing because extreme weather patterns are outrunning historical data—making continuous model retraining and real-time environmental data infrastructure a competitive necessity for P&C and re",
       "keyTopics": [
@@ -175,20 +188,6 @@
         "Upstart becomes primary loan originator for bank",
         "Dakota stablecoin applies for OCC trust charter",
         "CFPB reviewing open banking data portability rules"
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "summary": "Financial services institutions face mounting regulatory pressure to demonstrate real-time transaction monitoring and AI governance capabilities, as evidenced by Capital One's account closures based on AML pattern detection and ongoing consent order enforcement against banks with inadequate compliance infrastructure. Meanwhile, the AI security landscape is consolidating around governance platforms like Databricks' newly general-available Unity AI Gateway, which provides the independent oversight layer enterprises need as model providers and capabilities continue to shift. Credit unions and banks deploying AI for member acquisition and personalization must simultaneously invest in unified data foundations and governance infrastructure to compete with fintechs while satisfying regulators demanding documented audit trails for every AI-influenced decision.",
-      "keyTopics": [
-        "Capital One AML account closures and transaction monitoring",
-        "Lakeland Bank consent order regulatory compliance enforcement",
-        "Databricks Unity AI Gateway general availability",
-        "Databricks Open Secure AI Alliance membership",
-        "Anthropic ten billion dollar Volta infrastructure deal",
-        "Open-weight model safety gap versus frontier models",
-        "Google BigQuery borderless lakehouse cross-platform query",
-        "Credit union member behavior and AI personalization"
       ]
     }
   ]
