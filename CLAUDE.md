@@ -1,5 +1,11 @@
 # CLAUDE.md
 
+## Status: PAUSED (2026-08-26)
+
+The `daily-briefing.yml` GitHub Actions workflow is **disabled** (`disabled_manually`). The Google Cloud free trial expired, so Cloud TTS now returns `PERMISSION_DENIED: billing not enabled` (project #311147912041) and every scheduled run failed. Paused to stop the daily failure alerts; the podcast wasn't in active use.
+
+**To revive:** (1) re-enable billing on GCP project #311147912041, (2) `gh workflow enable daily-briefing.yml --repo timberk-gif/data-ai-daily`, (3) fix the Reddit scraper (all subreddits now 403 the fetch; non-fatal but dead). Code, repo, and past episodes are untouched.
+
 ## Project Overview
 
 Automated daily podcast pipeline for Tim Kiernan (Databricks Field Engineering AE based in NYC). Scrapes four content streams — Databricks, AI/ML news, competitive (Snowflake/Fabric/BigQuery), and FSI industry signal (Insurance Journal / Credit Union Times / American Banker) — synthesizes a two-host script via Claude API, converts to audio via Google Cloud TTS, and publishes to GitHub Pages as an RSS feed. Forked from tylernwatson/daily-podcast.
